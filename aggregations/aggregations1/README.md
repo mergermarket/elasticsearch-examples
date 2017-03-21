@@ -6,7 +6,7 @@
 
 3. `./query.sh` : executes the query in query1.json  
 
-## aggregation1 
+## aggregations1 
 
 A basic aggregation example.
 
