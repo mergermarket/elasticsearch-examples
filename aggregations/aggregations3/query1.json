@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "topics": {
+      "terms": {
+        "field": "topics.name.keyword"
+      },
+      "aggs": {
+        "subtopics": {
+          "terms": {
+            "field": "topics.subtopics.name.keyword"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title" : "A mighty fine document",
+  "topics": [
+    {
+      "name" : "vegetables",
+      "subtopics" : [
+        { "name": "rutabaga" },
+        { "name": "artichoke" }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "atype": {
+      "properties": {
+        "topics": {
+          "properties": {
+            "name":  { "type": "keyword" },
+            "subtopics": {
+              "properties": {
+                "name":  { "type": "keyword" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

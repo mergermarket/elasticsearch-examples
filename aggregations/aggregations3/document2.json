@@ -1,0 +1,13 @@
+{
+  "title" : "Another document",
+  "topics": [
+    {
+      "name" : "vegetables",
+      "subtopics" : [
+        { "name": "potato" },
+        { "name": "turnip" }
+      ]
+    }
+  ]
+}
+
