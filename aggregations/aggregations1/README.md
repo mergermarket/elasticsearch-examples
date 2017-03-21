@@ -29,18 +29,6 @@ An example search response with aggregations:
 
 ```
 {
-  "took" : 5,
-  "timed_out" : false,
-  "_shards" : {
-    "total" : 5,
-    "successful" : 5,
-    "failed" : 0
-  },
-  "hits" : {
-    "total" : 2,
-    "max_score" : 0.0,
-    "hits" : [ ]
-  },
   "aggregations" : {
     "topics" : {
       "doc_count_error_upper_bound" : 0,
