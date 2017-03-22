@@ -15,3 +15,10 @@ To exercise any of the examples, cd into the folder and do the following:
 
 3. Run a search. `./query.sh`
 
+Then examine the scripts to understand what's going on.
+
+## also kibana
+
+There should also be a Kibana instance that can be useful for experimenting.
+
+http://localhost:5601
