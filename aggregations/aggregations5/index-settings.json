@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "atype": {
+      "properties": {
+        "_computed" : {
+          "properties" : {
+            "topics": {
+              "properties": {
+                "id_name":  { "type": "keyword" },
+                "subtopics": {
+                  "properties": {
+                    "id_name":  { "type": "keyword" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

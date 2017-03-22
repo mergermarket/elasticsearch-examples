@@ -1,0 +1,25 @@
+{
+  "title" : "A mighty fine document",
+  "topics": [
+    {
+      "id": "1",
+      "name" : "vegetables",
+      "subtopics" : [
+        { "id": "2", "name": "rutabaga" },
+        { "id": "3", "name": "artichoke" }
+      ]
+    }
+  ],
+  "_computed" : {
+    "topics": [
+      {
+        "id_name": "1|vegetables",
+        "subtopics" : [
+          { "id_name": "2|rutabaga" },
+          { "id_name": "3|artichoke" }
+        ]
+      }
+    ]
+  }
+}
+
