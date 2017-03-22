@@ -1,0 +1,42 @@
+{
+  "title" : "A mighty fine document",
+  "topics": [
+    {
+      "id": "1",
+      "name" : "vegetables",
+      "subtopics" : [
+        { "id": "11", "name": "rutabaga" },
+        { "id": "12", "name": "artichoke" },
+        { "id": "13", "name": "potato" }
+      ]
+    },
+    {
+      "id": "2",
+      "name" : "fruits",
+      "subtopics" : [
+        { "id": "21", "name": "apple" },
+        { "id": "22", "name": "banana" }
+      ]
+    }
+  ],
+  "_computed" : {
+    "topics": [
+      {
+        "id_name": "1|vegetables",
+        "subtopics" : [
+          { "id_name": "11|rutabaga" },
+          { "id_name": "12|artichoke" },
+          { "id_name": "13|potato" }
+        ]
+      },
+      {
+        "id_name": "2|fruits",
+        "subtopics" : [
+          { "id_name": "21|apple" },
+          { "id_name": "22|banana" }
+        ]
+      }
+    ]
+  }
+}
+

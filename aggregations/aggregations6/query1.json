@@ -1,0 +1,24 @@
+{
+  "size": 0,
+  "aggs": {
+    "all": {
+      "nested": {
+        "path": "_computed.topics"
+      },
+      "aggs": {
+        "all_topics": {
+          "terms": {
+            "field": "_computed.topics.id_name"
+          },
+          "aggs": {
+            "topic_subtopics": {
+              "terms": {
+                "field": "_computed.topics.subtopics.id_name"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

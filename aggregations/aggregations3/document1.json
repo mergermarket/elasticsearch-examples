@@ -4,8 +4,8 @@
     {
       "name" : "vegetables",
       "subtopics" : [
-        { "name": "rutabaga" },
-        { "name": "artichoke" }
+        { "name": "artichoke" },
+        { "name": "asparagus"}
       ]
     }
   ]

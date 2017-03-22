@@ -9,7 +9,7 @@ Each folder in this repository has a few bash scripts and json files that demons
 
 To exercise any of the examples, cd into the folder and do the following:
 
-1. Create and configure an empty index: `./create-index.sh`
+1. Create and configure an empty index: `./create-index.sh` (also deletes the test index if it already exists)
 
 2. Add the example documents to the index: `./index-documents.sh`
 

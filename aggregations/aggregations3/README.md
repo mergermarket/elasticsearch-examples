@@ -11,10 +11,57 @@ In this example, the documents have topics and subtopics:
     {
       "name" : "vegetables",
       "subtopics" : [
-        { "name": "rutabaga" },
-        { "name": "artichoke" }
+        { "name": "artichoke" },
+        { "name": "asparagus"}
       ]
     }
   ]
+}
+```
+```json
+{
+  "title" : "Another document",
+  "topics": [
+    {
+      "name" : "vegetables",
+      "subtopics" : [
+        { "name": "asparagus" },
+        { "name": "aubergine" }
+      ]
+    }
+  ]
+}
+```
+
+When you execute the query, the response should show the correct number of documents for each topic and subtopic:
+
+```json
+{
+  "aggregations" : {
+    "topics" : {
+      "buckets" : [
+        {
+          "key" : "vegetables",
+          "doc_count" : 2,
+          "subtopics" : {
+            "buckets" : [
+              {
+                "key" : "asparagus",
+                "doc_count" : 2
+              },
+              {
+                "key" : "artichoke",
+                "doc_count" : 1
+              },
+              {
+                "key" : "aubergine",
+                "doc_count" : 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
 }
 ```

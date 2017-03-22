@@ -4,8 +4,8 @@
     {
       "name" : "vegetables",
       "subtopics" : [
-        { "name": "potato" },
-        { "name": "turnip" }
+        { "name": "asparagus" },
+        { "name": "aubergine" }
       ]
     }
   ]
