@@ -32,7 +32,7 @@ An example ElasticSearch query, with "aggs" element indicating we want an aggreg
 {
   "query": {
     "term" : { "title" : "mighty" } 
-  }
+  },
   "aggs": {
     "topics": {
       "terms": {
