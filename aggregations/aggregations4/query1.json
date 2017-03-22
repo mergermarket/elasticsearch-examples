@@ -1,14 +1,21 @@
 {
   "size": 0,
   "aggs": {
-    "topics": {
-      "terms": {
-        "field": "topics.name"
+    "all": {
+      "nested": {
+        "path": "topics"
       },
       "aggs": {
-        "subtopics": {
+        "all_topics": {
           "terms": {
-            "field": "topics.subtopics.name"
+            "field": "topics.name"
+          },
+          "aggs": {
+            "topic_subtopics": {
+              "terms": {
+                "field": "topics.subtopics.name"
+              }
+            }
           }
         }
       }

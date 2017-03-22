@@ -1,0 +1,23 @@
+{
+  "title" : "A mighty fine document",
+  "topics": [
+    {
+      "id": "1",
+      "name" : "vegetables",
+      "subtopics" : [
+        { "id": "11", "name": "rutabaga" },
+        { "id": "12", "name": "artichoke" },
+        { "id": "13", "name": "potato" }
+      ]
+    },
+    {
+      "id": "2",
+      "name" : "fruits",
+      "subtopics" : [
+        { "id": "21", "name": "apple" },
+        { "id": "22", "name": "banana" }
+      ]
+    }
+  ]
+}
+

@@ -5,11 +5,18 @@
         "topics": {
           "type": "nested",
           "properties": {
+            "id": {
+              "type": "keyword"
+            },
             "name": {
               "type": "keyword"
             },
             "subtopics": {
+              "type": "nested",
               "properties": {
+                "id": {
+                  "type": "keyword"
+                },
                 "name": {
                   "type": "keyword"
                 }

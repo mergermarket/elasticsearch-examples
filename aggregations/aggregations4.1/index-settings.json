@@ -3,16 +3,11 @@
     "atype": {
       "properties": {
         "topics": {
-          "type": "nested",
           "properties": {
-            "name": {
-              "type": "keyword"
-            },
+            "name":  { "type": "keyword" },
             "subtopics": {
               "properties": {
-                "name": {
-                  "type": "keyword"
-                }
+                "name":  { "type": "keyword" }
               }
             }
           }
