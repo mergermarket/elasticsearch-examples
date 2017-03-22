@@ -12,7 +12,7 @@ A basic aggregation example.
 
 Given some documents like:
 
-```
+```json
 {
   "title" : "A mighty fine document",
   "topics": [
@@ -23,12 +23,34 @@ Given some documents like:
 }
 ```
 
-We want to do a search and get back the number of hits in each topic.
+We want to execute a query and get back, in addition to the first n hits, a breakdown of the total number of hits in each topic.
 ElasticSearch calls this feature 'aggregations'.
-An example search response with aggregations:
+
+An example ElasticSearch query, with "aggs" element indicating we want an aggregation returned:
+
+```json
+{
+  "query": {
+    "term" : { "title" : "mighty" } 
+  }
+  "aggs": {
+    "topics": {
+      "terms": {
+        "field": "topics.keyword"
+      }
+    }
+  }
+}
+```
+
+An example response with aggregation:
 
 ```
 {
+  "hits" : {
+    "total": 1,
+    "hits": [...]
+  },
   "aggregations" : {
     "topics" : {
       "doc_count_error_upper_bound" : 0,
