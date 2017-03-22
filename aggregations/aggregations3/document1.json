@@ -7,6 +7,12 @@
         { "name": "artichoke" },
         { "name": "asparagus"}
       ]
+    },
+    {
+      "name" : "fruits",
+      "subtopics" : [
+        { "name": "apple" }
+      ]
     }
   ]
 }

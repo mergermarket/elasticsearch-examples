@@ -8,6 +8,13 @@
         { "id": "11", "name": "artichoke" },
         { "id": "12", "name": "asparagus" }
       ]
+    },
+    {
+      "id": "2",
+      "name" : "fruits",
+      "subtopics" : [
+        { "id": "21", "name": "apple" }
+      ]
     }
   ],
   "_computed" : {
@@ -17,6 +24,12 @@
         "subtopics" : [
           { "id_name": "11|artichoke" },
           { "id_name": "12|asparagus" }
+        ]
+      },
+      {
+        "id_name": "2|fruits",
+        "subtopics" : [
+          { "id_name": "21|apple" }
         ]
       }
     ]
