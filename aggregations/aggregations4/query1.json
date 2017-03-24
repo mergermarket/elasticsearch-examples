@@ -1,17 +1,17 @@
 {
   "size": 0,
   "aggs": {
-    "all": {
+    "topics": {
       "nested": {
         "path": "topics"
       },
       "aggs": {
-        "all_topics": {
+        "topics": {
           "terms": {
             "field": "topics.name"
           },
           "aggs": {
-            "topic_subtopics": {
+            "subtopics": {
               "terms": {
                 "field": "topics.subtopics.name"
               }

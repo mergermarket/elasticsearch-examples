@@ -43,7 +43,8 @@ In this example, the documents have topics and subtopics:
 
 When you execute the query, the response should show the correct number of documents for each topic and subtopic.
 
-HOWEVER! The counts are correct, but "apple" shows up under "vegetables", and "artichoke" and "asparagus" appear under "fruits":
+HOWEVER! The doc_count numbers are correct, but "apple" shows up under "vegetables", and "artichoke" and "asparagus" under "fruits"!
+ElasticSearch has lost the relationships between topics and subtopics.
 
 
 ```json
@@ -101,4 +102,4 @@ HOWEVER! The counts are correct, but "apple" shows up under "vegetables", and "a
 }
 ```
 
-The solution for this problem is to use "nested" aggregation, shown in aggregations4.
+The solution for this problem is to declare those fields as "nested", shown in aggregations4.

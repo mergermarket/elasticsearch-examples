@@ -1,104 +1,36 @@
 # elasticsearch-examples
 
-## aggregations3
+## aggregations4
 
-In this example, the documents have topics and subtopics:
+Building on aggregations3, we fix the problem by: 
 
-```json
-{
-  "title" : "A mighty fine document",
-  "topics": [
-    {
-      "name" : "vegetables",
-      "subtopics" : [
-        { "name": "artichoke" },
-        { "name": "asparagus"}
-      ]
-    },
-    {
-      "name" : "fruits",
-      "subtopics" : [
-        { "name": "apple" }
-      ]
-    }
-  ]
-}
+1. in index-settings.json, we define 'mappings', and indicate that the field 'topics' is 'nested'
 
-
-```
-```json
-{
-  "title" : "Another document",
-  "topics": [
-    {
-      "name" : "vegetables",
-      "subtopics" : [
-        { "name": "asparagus" },
-        { "name": "aubergine" }
-      ]
-    }
-  ]
-}
-```
-
-When you execute the query, the response should show the correct number of documents for each topic and subtopic.
-
-HOWEVER! The counts are correct, but "apple" shows up under "vegetables", and "artichoke" and "asparagus" appear under "fruits":
-
+2. in query1.json, we indicate that the 'topics' aggregation is 'nested' instead of 'terms'
 
 ```json
 {
-  "aggregations" : {
-    "topics" : {
-      "buckets" : [
-        {
-          "key" : "vegetables",
-          "doc_count" : 2,
-          "subtopics" : {
-            "buckets" : [
-              {
-                "key" : "asparagus",
-                "doc_count" : 2
-              },
-              {
-                "key" : "apple",
-                "doc_count" : 1
-              },
-              {
-                "key" : "artichoke",
-                "doc_count" : 1
-              },
-              {
-                "key" : "aubergine",
-                "doc_count" : 1
+  "size": 0,
+  "aggs": {
+    "topics": {
+      "nested": {
+        "path": "topics"
+      },
+      "aggs": {
+        "topics": {
+          "terms": {
+            "field": "topics.name"
+          },
+          "aggs": {
+            "subtopics": {
+              "terms": {
+                "field": "topics.subtopics.name"
               }
-            ]
-          }
-        },
-        {
-          "key" : "fruits",
-          "doc_count" : 1,
-          "subtopics" : {
-            "buckets" : [
-              {
-                "key" : "apple",
-                "doc_count" : 1
-              },
-              {
-                "key" : "artichoke",
-                "doc_count" : 1
-              },
-              {
-                "key" : "asparagus",
-                "doc_count" : 1
-              }
-            ]
+            }
           }
         }
-      ]
+      }
     }
   }
 }
 ```
-
-The solution for this problem is to use "nested" aggregation, shown in aggregations4.
