@@ -4,14 +4,22 @@
       "properties": {
         "_computed": {
           "properties": {
-            "topics": {
+            "areas": {
               "type": "nested",
               "properties": {
                 "id_name": {
                   "type": "keyword"
                 },
-                "subtopics": {
-                  "type": "keyword"
+                "regions": {
+                  "type": "nested",
+                  "properties": {
+                    "id_name": {
+                      "type": "keyword"
+                    },
+                    "countries": {
+                      "type": "keyword"
+                    }
+                  }
                 }
               }
             }
@@ -20,5 +28,4 @@
       }
     }
   }
-}
 }

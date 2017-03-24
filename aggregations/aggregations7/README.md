@@ -1,4 +1,0 @@
-# elasticsearch-examples
-
-## aggregations5
-

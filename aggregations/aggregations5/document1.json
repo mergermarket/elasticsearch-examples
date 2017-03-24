@@ -22,14 +22,14 @@
       {
         "id_name": "1|vegetables",
         "subtopics" : [
-          { "id_name": "11|artichoke" },
-          { "id_name": "12|asparagus" }
+          "11|artichoke",
+          "12|asparagus"
         ]
       },
       {
         "id_name": "2|fruits",
         "subtopics" : [
-          { "id_name": "21|apple" }
+          "21|apple"
         ]
       }
     ]

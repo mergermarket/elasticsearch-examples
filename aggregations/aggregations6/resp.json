@@ -1,0 +1,98 @@
+{
+  "took" : 9,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 0.0,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "regions" : {
+      "doc_count" : 6,
+      "regions" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 0,
+        "buckets" : [
+          {
+            "key" : "r11|Region 11",
+            "doc_count" : 2,
+            "countries" : {
+              "doc_count_error_upper_bound" : 0,
+              "sum_other_doc_count" : 0,
+              "buckets" : [
+                {
+                  "key" : "c111|Country 111",
+                  "doc_count" : 2
+                },
+                {
+                  "key" : "c112|Country 112",
+                  "doc_count" : 2
+                }
+              ]
+            }
+          },
+          {
+            "key" : "r22|Region 22",
+            "doc_count" : 2,
+            "countries" : {
+              "doc_count_error_upper_bound" : 0,
+              "sum_other_doc_count" : 0,
+              "buckets" : [
+                {
+                  "key" : "c221|Country 221",
+                  "doc_count" : 2
+                },
+                {
+                  "key" : "c222|Country 222",
+                  "doc_count" : 2
+                }
+              ]
+            }
+          },
+          {
+            "key" : "r12|Region 12",
+            "doc_count" : 1,
+            "countries" : {
+              "doc_count_error_upper_bound" : 0,
+              "sum_other_doc_count" : 0,
+              "buckets" : [
+                {
+                  "key" : "c121|Country 121",
+                  "doc_count" : 1
+                },
+                {
+                  "key" : "c122|Country 122",
+                  "doc_count" : 1
+                }
+              ]
+            }
+          },
+          {
+            "key" : "r21|Region 21",
+            "doc_count" : 1,
+            "countries" : {
+              "doc_count_error_upper_bound" : 0,
+              "sum_other_doc_count" : 0,
+              "buckets" : [
+                {
+                  "key" : "c211|Country 211",
+                  "doc_count" : 1
+                },
+                {
+                  "key" : "c212|Country 212",
+                  "doc_count" : 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

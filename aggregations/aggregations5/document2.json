@@ -15,8 +15,8 @@
       {
         "id_name": "1|vegetables",
         "subtopics" : [
-          { "id_name": "12|asparagus" },
-          { "id_name": "13|aubergine" }
+          "12|asparagus",
+          "13|aubergine"
         ]
       }
     ]

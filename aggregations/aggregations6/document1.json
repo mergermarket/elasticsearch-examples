@@ -1,0 +1,46 @@
+{
+  "title": "A mighty fine document",
+  "_computed": {
+    "areas": [
+      {
+        "id_name": "a1|Area 1",
+        "regions": [
+          {
+            "id_name": "r11|Region 11",
+            "countries": [
+              "c111|Country 111",
+              "c112|Country 112"
+            ]
+          },
+          {
+            "id_name": "r12|Region 12",
+            "countries": [
+              "c121|Country 121",
+              "c122|Country 122"
+            ]
+          }
+        ]
+      },
+      {
+        "id_name": "a2|Area 2",
+        "regions": [
+          {
+            "id_name": "r21|Region 21",
+            "countries": [
+              "c211|Country 211",
+              "c212|Country 212"
+            ]
+          },
+          {
+            "id_name": "r22|Region 22",
+            "countries": [
+              "c221|Country 221",
+              "c222|Country 222"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "size": 0,
+  "aggs": {
+    "regions": {
+      "nested": {
+        "path": "_computed.areas.regions"
+      },
+      "aggs": {
+        "regions": {
+          "terms": {
+            "field": "_computed.areas.regions.id_name"
+          },
+          "aggs": {
+            "countries": {
+              "terms": {
+                "field": "_computed.areas.regions.countries"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

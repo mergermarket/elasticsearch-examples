@@ -1,0 +1,32 @@
+{
+  "title": "Another document",
+  "_computed": {
+    "areas": [
+      {
+        "id_name": "a1|Area 1",
+        "regions": [
+          {
+            "id_name": "r11|Region 11",
+            "countries": [
+              "c111|Country 111",
+              "c112|Country 112"
+            ]
+          }
+        ]
+      },
+      {
+        "id_name": "a2|Area 2",
+        "regions": [
+          {
+            "id_name": "r22|Region 22",
+            "countries": [
+              "c221|Country 221",
+              "c222|Country 222"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -13,7 +13,7 @@
           "aggs": {
             "subtopics": {
               "terms": {
-                "field": "_computed.topics.subtopics.id_name"
+                "field": "_computed.topics.subtopics"
               }
             }
           }
