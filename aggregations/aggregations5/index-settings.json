@@ -5,6 +5,7 @@
         "_computed" : {
           "properties" : {
             "topics": {
+              "type": "nested",
               "properties": {
                 "id_name":  { "type": "keyword" },
                 "subtopics": {

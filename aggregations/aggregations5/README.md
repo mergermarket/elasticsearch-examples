@@ -57,10 +57,10 @@ Ideally we'd get back both the id and the name with each bucket, something like 
 }
 ```
 
-Unforunately I haven't found a way to do this in ElasticSearch.
+Unfortunately I haven't found a way to do this in ElasticSearch.
  
 Our workaround is to create a new field inside each document before we send it to ElasticSearch, with id and name 
-concatenated, and then rewrite the ElasticSearch response on to separate the id+name before returning to clients.
+concatenated, and then rewrite the ElasticSearch response to separate the id+name before returning to clients.
 
 Example document with "_computed" field added:
 ```json
@@ -88,5 +88,4 @@ Example document with "_computed" field added:
     ]
   }
 }
-
 ```
