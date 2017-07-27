@@ -1,0 +1,1955 @@
+{
+  "took": 25,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1887898,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "docrepo-ByLzRnfhx",
+        "_score": null,
+        "_source": {
+          "additionalData": {
+            "docrepo": {
+              "doclink": "https://aslive.debtwire.com/document-repository/document/ByLzRnfhx"
+            }
+          },
+          "bidders": [],
+          "body": "<p>Test</p><p>Debtwire subscribers can <a href=\"https://aslive.debtwire.com/document-repository/document/ByLzRnfhx\" target=\"_blank\" data-external-link=\"\">CLICK HERE</a> to view the full Xtract Research Special Report</p>",
+          "borrowers": [],
+          "companyRelationshipGroups": [
+            {
+              "bidders": [],
+              "issuers": [
+                {
+                  "id": "183974",
+                  "mmgid": "prime-183974",
+                  "name": "IBM (business process outsourcing)"
+                }
+              ],
+              "others": [],
+              "targets": [],
+              "vendors": []
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-USA",
+              "name": "USA"
+            }
+          ],
+          "defendants": [],
+          "depositors": [],
+          "dominantCountry": {
+            "mmgid": "prime-USA",
+            "name": "USA"
+          },
+          "dominantSector": {},
+          "dominantState": null,
+          "editors": [],
+          "financialDetails": {
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-medium",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "100m-500m",
+                  "CHF": "100m-500m",
+                  "CNY": "800m-4000m",
+                  "EUR": "100m-500m",
+                  "GBP": "60m-300m",
+                  "HKD": "800m-4000m",
+                  "INR": "4bn-21bn",
+                  "JPY": "10bn-50bn",
+                  "USD": "100m-500m"
+                }
+              }
+            ],
+            "stake": {
+              "mmgid": "prime-majority",
+              "name": "Majority (i.e. more than 30% inclusive)",
+              "percentage": null
+            }
+          },
+          "geographies": {
+            "areas": []
+          },
+          "grade": "Strong evidence",
+          "headline": "Showcase",
+          "id": "docrepo-ByLzRnfhx",
+          "intelligenceTypes": [],
+          "issuers": [
+            {
+              "id": "183974",
+              "mmgid": "prime-183974",
+              "name": "IBM (business process outsourcing)"
+            }
+          ],
+          "journalists": [],
+          "lenders": [],
+          "municipalsSectors": [],
+          "obligors": [],
+          "origin": "docrepo",
+          "others": [],
+          "plaintiffs": [],
+          "publicSources": [],
+          "sectors": [
+            {
+              "mmgid": "prime-computerserv",
+              "name": "Computer services",
+              "subsectors": []
+            },
+            {
+              "mmgid": "prime-servicesother",
+              "name": "Services (other)",
+              "subsectors": []
+            }
+          ],
+          "sellers": [],
+          "servicers": [],
+          "sources": [
+            {
+              "mmgid": "prime-2147139850",
+              "name": "(site source) Content"
+            }
+          ],
+          "targets": [],
+          "topics": [
+            {
+              "mmgid": "prime-1600658374",
+              "name": "research reports",
+              "groupcode": "prime-1600658374"
+            }
+          ],
+          "trustees": [],
+          "underwriters": [],
+          "value": {},
+          "vendors": [],
+          "lastModifiedDate": "2017-03-24T15:47:10.006Z",
+          "publishDate": "2017-03-24T15:47:10.006Z",
+          "siteEditionTagging": [
+            {
+              "id": "128_1",
+              "product": "Xtract Research",
+              "edition": "Europe"
+            },
+            {
+              "id": "128_2",
+              "product": "Xtract Research",
+              "edition": "North America"
+            },
+            {
+              "id": "128_8",
+              "product": "Xtract Research",
+              "edition": "Asia"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "research"
+          },
+          "editionRestrictions": [
+            "128_1",
+            "128_2",
+            "128_8"
+          ],
+          "isXtract": false,
+          "mmgid": "docrepo-ByLzRnfhx",
+          "relatedCompanyIds": [
+            "183974"
+          ],
+          "schemaVersion": "2.0",
+          "publishDateId": "20170324154710006",
+          "_computed": {
+            "allCompanies": [
+              {
+                "mmgid": "prime-183974",
+                "name": "IBM (business process outsourcing)"
+              }
+            ],
+            "publishDateSortId": "20170324154710006docrepo-ByLzRnfhx",
+            "allSectors": [
+              "prime-computerserv<-id_name->Computer services",
+              "prime-servicesother<-id_name->Services (other)"
+            ]
+          }
+        },
+        "sort": [
+          "20170324154710006docrepo-ByLzRnfhx"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "docrepo-HywYFS-3l",
+        "_score": null,
+        "_source": {
+          "additionalData": {
+            "docrepo": {
+              "doclink": "https://aslive.debtwire.com/document-repository/document/HywYFS-3l"
+            }
+          },
+          "bidders": [],
+          "body": "<p>In this report, Xtract Research shows that <strong>GNC</strong>'s credit agreement contains the same \"trap-door\" provision that allowed <strong>J. Crew</strong> to boost its investment capacity for investments in unrestricted subsidiaries. With the \"trap-door\" investment capacity boost, GNC's credit agreement provides significant investment capacity for investment in unrestricted subsidiaries and secured debt issuance capacity at foreign subsidiaries.</p><p>Debtwire subscribers can <a href=\"https://aslive.debtwire.com/document-repository/document/HywYFS-3l\" target=\"_blank\" data-external-link=\"\">CLICK HERE</a> to view the full Xtract Research Special Report</p>",
+          "borrowers": [],
+          "companyRelationshipGroups": [
+            {
+              "bidders": [],
+              "issuers": [
+                {
+                  "id": "121367",
+                  "mmgid": "prime-121367",
+                  "name": "J. Crew Group Inc."
+                }
+              ],
+              "others": [],
+              "targets": [],
+              "vendors": []
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-USA",
+              "name": "USA"
+            }
+          ],
+          "defendants": [],
+          "depositors": [],
+          "dominantCountry": {
+            "mmgid": "prime-USA",
+            "name": "USA"
+          },
+          "dominantSector": {
+            "mmgid": "prime-consumerretail",
+            "name": "Consumer: Retail",
+            "subsectors": []
+          },
+          "dominantState": null,
+          "editors": [],
+          "financialDetails": {
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-medium",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "100m-500m",
+                  "CHF": "100m-500m",
+                  "CNY": "800m-4000m",
+                  "EUR": "100m-500m",
+                  "GBP": "60m-300m",
+                  "HKD": "800m-4000m",
+                  "INR": "4bn-21bn",
+                  "JPY": "10bn-50bn",
+                  "USD": "100m-500m"
+                }
+              }
+            ],
+            "stake": {
+              "mmgid": "prime-majority",
+              "name": "Majority (i.e. more than 30% inclusive)",
+              "percentage": null
+            }
+          },
+          "geographies": {
+            "areas": []
+          },
+          "grade": "Strong evidence",
+          "headline": "TEST: LEGAL ANALYSIS: Could GNC pull \"a J. Crew\"",
+          "id": "docrepo-HywYFS-3l",
+          "intelligenceTypes": [],
+          "issuers": [
+            {
+              "id": "121367",
+              "mmgid": "prime-121367",
+              "name": "J. Crew Group Inc."
+            }
+          ],
+          "journalists": [],
+          "lenders": [],
+          "municipalsSectors": [],
+          "obligors": [],
+          "origin": "docrepo",
+          "others": [],
+          "plaintiffs": [],
+          "publicSources": [],
+          "sectors": [
+            {
+              "mmgid": "prime-consumerretail",
+              "name": "Consumer: Retail",
+              "subsectors": []
+            }
+          ],
+          "sellers": [],
+          "servicers": [],
+          "sources": [
+            {
+              "mmgid": "prime-2147139850",
+              "name": "(site source) Content"
+            }
+          ],
+          "targets": [],
+          "topics": [
+            {
+              "mmgid": "prime-1600658374",
+              "name": "research reports",
+              "groupcode": "prime-1600658374"
+            }
+          ],
+          "trustees": [],
+          "underwriters": [],
+          "value": {},
+          "vendors": [],
+          "lastModifiedDate": "2017-03-23T17:22:44.264Z",
+          "publishDate": "2017-03-23T13:48:48.939Z",
+          "siteEditionTagging": [
+            {
+              "id": "128_1",
+              "product": "Xtract Research",
+              "edition": "Europe"
+            },
+            {
+              "id": "128_2",
+              "product": "Xtract Research",
+              "edition": "North America"
+            },
+            {
+              "id": "128_8",
+              "product": "Xtract Research",
+              "edition": "Asia"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "research"
+          },
+          "editionRestrictions": [
+            "128_1",
+            "128_2",
+            "128_8"
+          ],
+          "isXtract": false,
+          "mmgid": "docrepo-HywYFS-3l",
+          "relatedCompanyIds": [
+            "121367"
+          ],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703231348489393",
+          "_computed": {
+            "allCompanies": [
+              {
+                "mmgid": "prime-121367",
+                "name": "J. Crew Group Inc."
+              }
+            ],
+            "publishDateSortId": "20170323134848939docrepo-HywYFS-3l",
+            "allSectors": [
+              "prime-consumerretail<-id_name->Consumer: Retail"
+            ]
+          }
+        },
+        "sort": [
+          "20170323134848939docrepo-HywYFS-3l"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374017",
+        "_score": null,
+        "_source": {
+          "id": "2374017",
+          "headline": "Olo Test 1",
+          "body": "<p> test</p>",
+          "dominantCountry": {
+            "mmgid": "prime-CAN",
+            "name": "Canada"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": {
+            "mmgid": "prime-CA-AB",
+            "name": null
+          },
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-autocomp",
+                  "name": "Automotive components"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-CAN",
+              "name": "Canada"
+            },
+            {
+              "mmgid": "prime-USA",
+              "name": "USA"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-mm_topic-Topic29",
+              "name": "Advisory Appointment",
+              "groupcode": "mm_topic"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-americas",
+                "name": "Americas",
+                "regions": [
+                  {
+                    "mmgid": "prime-namerica",
+                    "name": "North America",
+                    "countries": [
+                      {
+                        "mmgid": "prime-CAN",
+                        "name": "Canada",
+                        "isDominant": true,
+                        "states": [
+                          {
+                            "mmgid": "prime-CA-AB",
+                            "name": "Alberta",
+                            "isDominant": true,
+                            "municipalsCounties": []
+                          },
+                          {
+                            "mmgid": "prime-CA-BC",
+                            "name": "British Columbia",
+                            "isDominant": false,
+                            "municipalsCounties": []
+                          }
+                        ]
+                      },
+                      {
+                        "mmgid": "prime-USA",
+                        "name": "USA",
+                        "isDominant": false,
+                        "states": [
+                          {
+                            "mmgid": "prime-AK",
+                            "name": "Alaska (AK)",
+                            "isDominant": false,
+                            "municipalsCounties": []
+                          },
+                          {
+                            "mmgid": "prime-AL",
+                            "name": "Alabama (AL)",
+                            "isDominant": false,
+                            "municipalsCounties": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-majority",
+              "name": "Majority (i.e. more than 30% inclusive)",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-smaller",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "10m-50m",
+                  "CHF": "10m-50m",
+                  "CNY": "80m-400m",
+                  "EUR": "10m-50m",
+                  "GBP": "5m-30m",
+                  "HKD": "80m-400m",
+                  "INR": "400m-2bn",
+                  "JPY": "1bn-5bn",
+                  "USD": "10m-50m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforsale",
+              "name": "Companies for sale",
+              "subtypes": [
+                {
+                  "mmgid": "prime-compforsale",
+                  "name": "Companies for sale"
+                }
+              ]
+            },
+            {
+              "mmgid": "prime-crossborder",
+              "name": "Cross Border",
+              "subtypes": [
+                {
+                  "mmgid": "prime-crossborder",
+                  "name": "Cross Border"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-23T12:23:47.000Z",
+          "publishDate": "2017-03-23T12:23:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "1_2",
+              "product": "Mergermarket",
+              "edition": "North America"
+            },
+            {
+              "id": "2_2",
+              "product": "Dealreporter",
+              "edition": "North America"
+            },
+            {
+              "id": "1024_2",
+              "product": "Infinata Feed",
+              "edition": "North America"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "1_2",
+            "2_2",
+            "1024_2"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374017",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703231223000002374017",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170323122300000prime-2374017",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170323122300000prime-2374017"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374015",
+        "_score": null,
+        "_source": {
+          "id": "2374015",
+          "headline": "Alvaro the great",
+          "body": "<p> FAhri Testing - 2</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-22T16:23:27.000Z",
+          "publishDate": "2017-03-22T16:23:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "8_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374015",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703221623000002374015",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170322162300000prime-2374015",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170322162300000prime-2374015"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374013",
+        "_score": null,
+        "_source": {
+          "id": "2374013",
+          "headline": "FAhri Testing - 2345",
+          "body": "<p> FAhri Testing - 2</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-22T14:18:19.000Z",
+          "publishDate": "2017-03-22T14:18:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            },
+            {
+              "id": "1024_1",
+              "product": "Infinata Feed",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "8_1",
+            "1024_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374013",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703221418000002374013",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170322141800000prime-2374013",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170322141800000prime-2374013"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374011",
+        "_score": null,
+        "_source": {
+          "id": "2374011",
+          "headline": "FAhri Testing - 234",
+          "body": "<p> FAhri Testing - 2</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-21T11:49:46.000Z",
+          "publishDate": "2017-03-21T11:49:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            },
+            {
+              "id": "1024_1",
+              "product": "Infinata Feed",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "8_1",
+            "1024_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374011",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703211149000002374011",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170321114900000prime-2374011",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170321114900000prime-2374011"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374010",
+        "_score": null,
+        "_source": {
+          "id": "2374010",
+          "headline": "FAhri Testing - 23",
+          "body": "<p> FAhri Testing - 2</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-21T11:41:01.000Z",
+          "publishDate": "2017-03-21T11:40:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            },
+            {
+              "id": "1024_1",
+              "product": "Infinata Feed",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "8_1",
+            "1024_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374010",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703211140000002374010",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170321114000000prime-2374010",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170321114000000prime-2374010"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374008",
+        "_score": null,
+        "_source": {
+          "id": "2374008",
+          "headline": "FAhri Testing - 2",
+          "body": "<p> FAhri Testing - 2</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-20T16:26:45.000Z",
+          "publishDate": "2017-03-20T16:26:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            },
+            {
+              "id": "1024_1",
+              "product": "Infinata Feed",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "8_1",
+            "1024_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374008",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703201626000002374008",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170320162600000prime-2374008",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170320162600000prime-2374008"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "prime-2374007",
+        "_score": null,
+        "_source": {
+          "id": "2374007",
+          "headline": "FAhri Testing",
+          "body": "<p> FAhri Testing</p>",
+          "dominantCountry": {
+            "mmgid": "prime-FIN",
+            "name": "Finland"
+          },
+          "dominantSector": {
+            "mmgid": "prime-automotive",
+            "name": "Automotive"
+          },
+          "dominantState": null,
+          "grade": "Confirmed",
+          "sources": [
+            {
+              "mmgid": "prime-8",
+              "name": "(sitesource) Content",
+              "sourceNumber": 1
+            }
+          ],
+          "sectors": [
+            {
+              "mmgid": "prime-automotive",
+              "name": "Automotive",
+              "subsectors": [
+                {
+                  "mmgid": "prime-vehiclemanuf",
+                  "name": "Vehicle manufacturing"
+                }
+              ]
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FIN",
+              "name": "Finland"
+            }
+          ],
+          "municipalsSectors": [],
+          "origin": "prime",
+          "topics": [
+            {
+              "mmgid": "prime-dw_topic_EU-AmExt_terms",
+              "name": "Amendment",
+              "groupcode": "dw_topic_EU"
+            },
+            {
+              "mmgid": "prime-wm_topic-topic9",
+              "name": "Companies for Sale",
+              "groupcode": "wm_topic"
+            }
+          ],
+          "bidders": [],
+          "issuers": [],
+          "targets": [],
+          "vendors": [],
+          "others": [],
+          "geographies": {
+            "areas": [
+              {
+                "mmgid": "prime-europe",
+                "name": "Europe",
+                "regions": [
+                  {
+                    "mmgid": "prime-eu",
+                    "name": "EU",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  },
+                  {
+                    "mmgid": "prime-neurope",
+                    "name": "Northern Europe",
+                    "countries": [
+                      {
+                        "mmgid": "prime-FIN",
+                        "name": "Finland",
+                        "isDominant": true,
+                        "states": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "obligors": [],
+          "trustees": [],
+          "underwriters": [],
+          "servicers": [],
+          "depositors": [],
+          "borrowers": [],
+          "sellers": [],
+          "lenders": [],
+          "defendants": [],
+          "plaintiffs": [],
+          "value": {
+            "valueInMillions": {}
+          },
+          "financialDetails": {
+            "stake": {
+              "mmgid": "prime-notapplicable",
+              "percentage": null
+            },
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-small",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "50m-100m",
+                  "CHF": "50m-100m",
+                  "CNY": "400m-800m",
+                  "EUR": "50m-100m",
+                  "GBP": "30m-60m",
+                  "HKD": "400m-800m",
+                  "INR": "2bn-4bn",
+                  "JPY": "5bn-10bn",
+                  "USD": "50m-100m"
+                }
+              }
+            ]
+          },
+          "journalists": [],
+          "editors": [],
+          "intelligenceTypes": [
+            {
+              "mmgid": "prime-compforbuy",
+              "name": "Companies looking to buy",
+              "subtypes": [
+                {
+                  "mmgid": "prime-largetrans",
+                  "name": "Large/Transformational Acquisitions"
+                }
+              ]
+            }
+          ],
+          "publicSources": [],
+          "companyRelationshipGroups": [],
+          "lastModifiedDate": "2017-03-20T16:24:02.000Z",
+          "publishDate": "2017-03-20T16:23:00.000Z",
+          "siteEditionTagging": [
+            {
+              "id": "1_1",
+              "product": "Mergermarket",
+              "edition": "Europe"
+            },
+            {
+              "id": "2_1",
+              "product": "Dealreporter",
+              "edition": "Europe"
+            },
+            {
+              "id": "8_1",
+              "product": "Debtwire",
+              "edition": "Europe"
+            },
+            {
+              "id": "1024_1",
+              "product": "Infinata Feed",
+              "edition": "Europe"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isAnalysis": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "intelligence"
+          },
+          "editionRestrictions": [
+            "1_1",
+            "2_1",
+            "8_1",
+            "1024_1"
+          ],
+          "isXtract": false,
+          "mmgid": "prime-2374007",
+          "relatedCompanyIds": [],
+          "schemaVersion": "2.0",
+          "publishDateId": "201703201623000002374007",
+          "_computed": {
+            "allCompanies": [],
+            "publishDateSortId": "20170320162300000prime-2374007",
+            "allSectors": [
+              "prime-automotive<-id_name->Automotive"
+            ]
+          }
+        },
+        "sort": [
+          "20170320162300000prime-2374007"
+        ]
+      },
+      {
+        "_index": "intelligence-search-aslive-v3",
+        "_type": "intelligence",
+        "_id": "docrepo-SJFHI46ox",
+        "_score": null,
+        "_source": {
+          "additionalData": {
+            "docrepo": {
+              "doclink": "https://aslive.debtwire.com/document-repository/document/SJFHI46ox"
+            }
+          },
+          "bidders": [],
+          "body": "<p>sss</p><p>Debtwire subscribers can <a href=\"https://aslive.debtwire.com/document-repository/document/SJFHI46ox\" target=\"_blank\" data-external-link=\"\">CLICK HERE</a> to view the full Xtract Research Special Report</p>",
+          "borrowers": [],
+          "companyRelationshipGroups": [
+            {
+              "bidders": [],
+              "issuers": [
+                {
+                  "id": "44605",
+                  "mmgid": "prime-44605",
+                  "name": "Credit Agricole des Savoie Capital"
+                }
+              ],
+              "others": [],
+              "targets": [],
+              "vendors": []
+            }
+          ],
+          "countries": [
+            {
+              "mmgid": "prime-FRA",
+              "name": "France"
+            }
+          ],
+          "defendants": [],
+          "depositors": [],
+          "dominantCountry": {
+            "mmgid": "prime-FRA",
+            "name": "France"
+          },
+          "dominantSector": {},
+          "dominantState": null,
+          "editors": [],
+          "financialDetails": {
+            "sizes": [
+              {
+                "band": {
+                  "mmgid": "prime-medium",
+                  "name": "{[currency]} {[rangeMinDescription]}-{[rangeMaxDescription]}"
+                },
+                "currencies": {
+                  "AUD": "100m-500m",
+                  "CHF": "100m-500m",
+                  "CNY": "800m-4000m",
+                  "EUR": "100m-500m",
+                  "GBP": "60m-300m",
+                  "HKD": "800m-4000m",
+                  "INR": "4bn-21bn",
+                  "JPY": "10bn-50bn",
+                  "USD": "100m-500m"
+                }
+              }
+            ],
+            "stake": {
+              "mmgid": "prime-majority",
+              "name": "Majority (i.e. more than 30% inclusive)",
+              "percentage": null
+            }
+          },
+          "geographies": {
+            "areas": []
+          },
+          "grade": "Strong evidence",
+          "headline": "roles_Test",
+          "id": "docrepo-SJFHI46ox",
+          "intelligenceTypes": [],
+          "issuers": [
+            {
+              "id": "44605",
+              "mmgid": "prime-44605",
+              "name": "Credit Agricole des Savoie Capital"
+            }
+          ],
+          "journalists": [],
+          "lenders": [],
+          "municipalsSectors": [],
+          "obligors": [],
+          "origin": "docrepo",
+          "others": [],
+          "plaintiffs": [],
+          "publicSources": [],
+          "sectors": [
+            {
+              "mmgid": "prime-finance",
+              "name": "Financial Services",
+              "subsectors": []
+            }
+          ],
+          "sellers": [],
+          "servicers": [],
+          "sources": [
+            {
+              "mmgid": "prime-2147139850",
+              "name": "(site source) Content"
+            }
+          ],
+          "targets": [],
+          "topics": [
+            {
+              "mmgid": "prime-1600658374",
+              "name": "research reports",
+              "groupcode": "prime-1600658374"
+            }
+          ],
+          "trustees": [],
+          "underwriters": [],
+          "value": {},
+          "vendors": [],
+          "lastModifiedDate": "2017-03-20T13:38:13.774Z",
+          "publishDate": "2017-03-20T13:38:13.774Z",
+          "siteEditionTagging": [
+            {
+              "id": "128_1",
+              "product": "Xtract Research",
+              "edition": "Europe"
+            },
+            {
+              "id": "128_2",
+              "product": "Xtract Research",
+              "edition": "North America"
+            },
+            {
+              "id": "128_8",
+              "product": "Xtract Research",
+              "edition": "Asia"
+            }
+          ],
+          "isStrategicSnapshot": false,
+          "isNotificationEnabled": true,
+          "isProprietary": true,
+          "status": "final",
+          "contentClassification": {
+            "contentCategory": "research"
+          },
+          "editionRestrictions": [
+            "128_1",
+            "128_2",
+            "128_8"
+          ],
+          "isXtract": false,
+          "mmgid": "docrepo-SJFHI46ox",
+          "relatedCompanyIds": [
+            "44605"
+          ],
+          "schemaVersion": "2.0",
+          "publishDateId": "2017032013381377446",
+          "_computed": {
+            "allCompanies": [
+              {
+                "mmgid": "prime-44605",
+                "name": "Credit Agricole des Savoie Capital"
+              }
+            ],
+            "publishDateSortId": "20170320133813774docrepo-SJFHI46ox",
+            "allSectors": [
+              "prime-finance<-id_name->Financial Services"
+            ]
+          }
+        },
+        "sort": [
+          "20170320133813774docrepo-SJFHI46ox"
+        ]
+      }
+    ]
+  }
+}

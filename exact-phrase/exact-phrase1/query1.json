@@ -1,0 +1,19 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "multi_match": {
+            "query": "\"fine body\"",
+            "operator": "and",
+            "type": "cross_fields",
+            "fields": [
+              "headline",
+              "body"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
