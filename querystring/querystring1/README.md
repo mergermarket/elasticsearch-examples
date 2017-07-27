@@ -22,7 +22,7 @@ This example explores the behavior of ElasticSearch's ["query_string" feature](h
 }
 ```
 
-#### default_operator
+#### default default_operator
 
 Note the ambiguity: without an "AND" or "OR" between "pizza" and "situation", what does it mean?
 
@@ -51,5 +51,39 @@ It returns 7 matches:
 | document5.json   |  YES | YES  |  NO | NO |
 | document6.json   |  YES | NO  |  YES | NO |
 | document7.json   |  YES | NO  |  NO | YES |
+| document8.json   |  NO | NO  |  NO | NO |
+
+### query2.json 
+
+```json
+{
+  "query": {
+    "query_string" : {
+      "query" : "\"london stock exchange\" OR (pizza AND situation)"
+    }
+  }
+}
+```
+
+Query2 is unambiguous. It matches documents that contain:
+
+    - either:  
+        - the exact phrase "london stock exchange"
+    - or:
+        - both:
+            - the single word "pizza"
+            - the single word "situation"
+
+It returns 5 matches:
+
+| document  | matches query2  | "london stock exchange"  | pizza  | situation  |
+|---|---|---|---|---|
+| document1.json  | YES  | YES  | YES  | YES  |
+| document2.json   |  YES | YES  |YES   | NO  |
+| document3.json   |  YES | YES  |  NO | YES  |
+| document4.json   |  YES | NO  |  YES | YES  |
+| document5.json   |  YES | YES  |  NO | NO |
+| document6.json   |  NO | NO  |  YES | NO |
+| document7.json   |  NO | NO  |  NO | YES |
 | document8.json   |  NO | NO  |  NO | NO |
 
