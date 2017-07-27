@@ -38,15 +38,16 @@ In other words it matches documents that contain:
         - the single word "situation"
 
 It returns 7 matches:
-        
-| document       | matches query1 | "london stock exchange" | "pizza" | "situation" |
-| ____ | ____ | ____ | ____ | ____ |
-| document1.json | YES            | YES                     | YES     | YES         |
-| document2.json | YES            | YES                     | YES     | NO          | 
-| document3.json | YES            | YES                     | NO      | YES         | 
-| document4.json | YES            | NO                      | YES     | YES         | 
-| document5.json | YES            | YES                     | NO      | NO          | 
-| document6.json | YES            | NO                      | YES     | NO          | 
-| document7.json | YES            | NO                      | NO      | YES         | 
-| document8.json | NO             | NO                      | NO      | NO          | 
+
+
+| document  | matches query1  | "london stock exchange"  | pizza  | situation  |
+|---|---|---|---|---|
+| document1.json  | YES  | YES  | YES  | YES  |
+| document2.json   |  YES | YES  |YES   | NO  |
+| document3.json   |  YES | YES  |  NO | YES  |
+| document4.json   |  YES | NO  |  YES | YES  |
+| document5.json   |  YES | YES  |  NO | NO |
+| document6.json   |  YES | NO  |  YES | NO |
+| document7.json   |  YES | NO  |  NO | YES |
+| document8.json   |  NO | NO  |  NO | NO |
 
