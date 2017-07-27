@@ -22,6 +22,8 @@ This example explores the behavior of ElasticSearch's ["query_string" feature](h
 }
 ```
 
+#### default_operator
+
 Note the ambiguity: without an "AND" or "OR" between "pizza" and "situation", what does it mean?
 
 How does ElasticSearch query_string parser interpret this query?
