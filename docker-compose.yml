@@ -1,7 +1,7 @@
 version: '2'
 services:
   elasticsearch:
-    image: elasticsearch:5.2.0-alpine
+    image: elasticsearch:5.5-alpine
     expose:
       - "9200"
     ports:
