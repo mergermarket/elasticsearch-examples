@@ -78,12 +78,54 @@ It returns 5 matches:
 
 | document  | matches query2  | "london stock exchange"  | pizza  | situation  |
 |---|---|---|---|---|
-| document1.json  | YES  | YES  | YES  | YES  |
-| document2.json   |  YES | YES  |YES   | NO  |
-| document3.json   |  YES | YES  |  NO | YES  |
-| document4.json   |  YES | NO  |  YES | YES  |
-| document5.json   |  YES | YES  |  NO | NO |
-| document6.json   |  NO | NO  |  YES | NO |
-| document7.json   |  NO | NO  |  NO | YES |
-| document8.json   |  NO | NO  |  NO | NO |
+| document1.json | YES | YES  | YES  | YES  |
+| document2.json | YES | YES  |YES   | NO  |
+| document3.json | YES | YES  |  NO | YES  |
+| document4.json | YES | NO  |  YES | YES  |
+| document5.json | YES | YES  |  NO | NO |
+| document6.json | NO  | NO  |  YES | NO |
+| document7.json | NO  | NO  |  NO | YES |
+| document8.json | NO  | NO  |  NO | NO |
+
+### query3.json 
+
+```json
+{
+  "query": {
+    "query_string" : {
+      "default_operator" : "AND",
+      "query" : "\"london stock exchange\" OR pizza situation"
+    }
+  }
+}
+```
+
+Query3 has a different kind of ambiguity.
+
+We're explicitly declaring that the default_operator is "AND", so we know it's equivalent to:
+
+```"london stock exchange" OR pizza AND situation```
+
+But what does that mean?
+
+It might mean option 1:
+
+```("london stock exchange" OR pizza) AND situation```
+
+or option 2:
+
+```"london stock exchange" OR (pizza AND situation)```
+
+It returns 4 matches:
+
+| document  | matches query2  | "london stock exchange"  | pizza  | situation  |
+|---|---|---|---|---|
+| document1.json | YES | YES | YES | YES |
+| document2.json | NO  | YES | YES | NO  |
+| document3.json | YES | YES |  NO | YES |
+| document4.json | YES | NO  | YES | YES |
+| document5.json | NO  | YES | NO  | NO  |
+| document6.json | NO  | NO  | YES | NO  |
+| document7.json | YES | NO  | NO  | YES |
+| document8.json | NO  | NO  | NO  | NO  |
 

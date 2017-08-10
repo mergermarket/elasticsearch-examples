@@ -11,8 +11,6 @@ fi
 
 QUERYJSON="$1"
 
-set -x
-
-curl -XPOST -d@"$QUERYJSON" "http://localhost:9200/$INDEX/_search?pretty"
+curl -s -XPOST -d@"$QUERYJSON" "http://localhost:9200/$INDEX/_search?pretty"
 
 

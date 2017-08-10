@@ -1,0 +1,8 @@
+{
+  "query": {
+    "query_string" : {
+      "default_operator" : "AND",
+      "query" : "\"london stock exchange\" OR (pizza AND situation)"
+    }
+  }
+}
