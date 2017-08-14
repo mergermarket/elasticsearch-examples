@@ -1,0 +1,8 @@
+{
+  "title" : "A mighty fine document",
+  "productAttributes": {
+    "fooproduct": {
+      "contentCategories": [ "research" ]
+    }
+  } 
+}

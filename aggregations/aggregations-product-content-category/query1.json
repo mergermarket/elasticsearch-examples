@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "debtwirecontentcategory": {
+      "terms": {
+        "field": "productAttributes.debtwire.contentCategories.keyword"
+      }
+    }
+  }
+}
