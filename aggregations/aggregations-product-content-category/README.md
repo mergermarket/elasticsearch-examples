@@ -22,5 +22,5 @@ Given some documents like:
 }
 ```
 
-We want to get number of hits for every value of "debtwire.contentCategories".
+We want to get number of hits for every value of "productAttributes.debtwire.contentCategories".
 
