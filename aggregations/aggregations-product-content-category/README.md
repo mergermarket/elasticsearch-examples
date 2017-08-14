@@ -2,7 +2,7 @@
 
 1. `./create-index.sh` : creates a new empty index
 
-2. `./index-documents.sh` : puts 2 documents into the index: document1.json & document2.json
+2. `./index-documents.sh` : puts `document*.json` into the index
 
 3. `./query.sh` : executes the query in query1.json  
 
