@@ -4,76 +4,83 @@
 
 2. `./index-documents.sh` : puts 2 documents into the index: document1.json & document2.json
 
-3. `./query.sh` : executes the query in query1.json  
+3. `./query.sh query1.json` : executes the query in query1.json  
 
-## aggregations1 
+## nested-filter 
 
-A basic aggregation example.
+A query with a filter on a nested property.
 
 Given some documents like:
 
 ```json
 {
-  "title" : "A mighty fine document",
-  "topics": [
-    "vegetables",
-    "animals",
-    "minerals"
-  ]
+  "title": "doc one",
+  "_computed": {
+    "allCompanies": [
+      {
+        "mmgid": "prime-15",
+        "roles": [
+          "others"
+        ],
+        "name": "Goldman Sachs",
+        "id_name": "prime-15<-id_name->Goldman Sachs"
+      }
+    ]
+  },
+  "status": "final"
 }
 ```
 
-We want to execute a query and get back, in addition to the first n hits, a breakdown of the total number of hits in each topic.
-ElasticSearch calls this feature 'aggregations'.
+We want to do a search on some text fields, and filter on particular values for '_computed.allCompanies.mmgid'.
 
-An example ElasticSearch query, with "aggs" element indicating we want an aggregation returned:
+Our index has '_computed.allCompanies' property configured as 'nested' - see [./index-settings.json](index-settings.json)
+
+That nested business means we have to use a different kind of filter query. 
+
 
 ```json
 {
   "query": {
-    "term" : { "title" : "mighty" } 
-  },
-  "aggs": {
-    "topics": {
-      "terms": {
-        "field": "topics.keyword"
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "query": "doc",
+            "default_operator": "and"
+          }
+        }
+      ],
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "terms": {
+                "status": [
+                  "final"
+                ]
+              }
+            },
+            {
+              "nested": {
+                "path": "_computed.allCompanies",
+                "query": {
+                  "bool": {
+                    "must": [
+                      {
+                        "match": {
+                          "_computed.allCompanies.mmgid": "prime-15"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     }
   }
 }
 ```
 
-An example response with aggregation:
-
-```
-{
-  "hits" : {
-    "total": 1,
-    "hits": [...]
-  },
-  "aggregations" : {
-    "topics" : {
-      "doc_count_error_upper_bound" : 0,
-      "sum_other_doc_count" : 0,
-      "buckets" : [
-        {
-          "key" : "vegetables",
-          "doc_count" : 2
-        },
-        {
-          "key" : "animals",
-          "doc_count" : 1
-        },
-        {
-          "key" : "books",
-          "doc_count" : 1
-        },
-        {
-          "key" : "minerals",
-          "doc_count" : 1
-        }
-      ]
-    }
-  }
-}
-```

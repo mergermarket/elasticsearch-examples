@@ -4,8 +4,7 @@
       "must": [
         {
           "query_string": {
-            "query": "doc",
-            "default_operator": "and"
+            "query": "doc"
           }
         }
       ],

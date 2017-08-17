@@ -9,5 +9,5 @@ http_code=`curl -s -o /dev/null -w "%{http_code}" -XDELETE http://localhost:9200
 
 echo "Creating $INDEX"
 
-curl -v -XPUT -d@"$SETTINGS_FILE" "http://localhost:9200/$INDEX"
+curl -XPUT -d@"$SETTINGS_FILE" "http://localhost:9200/$INDEX"
 
