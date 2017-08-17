@@ -1,0 +1,43 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "query": "doc",
+            "default_operator": "and"
+          }
+        }
+      ],
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "terms": {
+                "status": [
+                  "final"
+                ]
+              }
+            },
+            {
+              "nested": {
+                "path": "_computed.allCompanies",
+                "query": {
+                  "bool": {
+                    "must": [
+                      {
+                        "match": {
+                          "_computed.allCompanies.mmgid": "prime-15"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

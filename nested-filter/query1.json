@@ -4,18 +4,22 @@
       "must": [
         {
           "query_string": {
-            "query": "company",
+            "query": "doc",
             "default_operator": "and"
           }
         }
       ],
       "filter": {
-        "nested" : {
-          "path" : "_computed.allCompanies",
-          "query" : {
-            "bool" : {
-              "must" : [
-                { "match" : {"_computed.allCompanies.mmgid" : "prime-15"} }
+        "nested": {
+          "path": "_computed.allCompanies",
+          "query": {
+            "bool": {
+              "must": [
+                {
+                  "match": {
+                    "_computed.allCompanies.mmgid": "prime-15"
+                  }
+                }
               ]
             }
           }

@@ -4,6 +4,6 @@ INDEX='my-first-index'
 TYPE='intelligence'
 
 set -x
-curl -XPOST -d@"query1.json" "http://localhost:9200/$INDEX/_search?pretty"
+curl -XPOST -d@"$1" "http://localhost:9200/$INDEX/_search?pretty"
 
 
