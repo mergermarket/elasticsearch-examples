@@ -1,0 +1,15 @@
+{
+  "title": "doc two",
+  "_computed": {
+    "allCompanies": [
+      {
+        "mmgid": "prime-23",
+        "roles": [
+          "others"
+        ],
+        "name": "Leadman Sachs",
+        "id_name": "prime-23<-id_name->Leadman Sachs"
+      }
+    ]
+  }
+}

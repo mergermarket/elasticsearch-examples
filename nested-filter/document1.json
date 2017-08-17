@@ -1,0 +1,15 @@
+{
+  "title": "doc one",
+  "_computed": {
+    "allCompanies": [
+      {
+        "mmgid": "prime-15",
+        "roles": [
+          "others"
+        ],
+        "name": "Goldman Sachs",
+        "id_name": "prime-15<-id_name->Goldman Sachs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "mappings": {
+    "intelligence": {
+      "properties": {
+        "_computed": {
+          "properties": {
+            "allCompanies": {
+              "type": "nested",
+              "properties": {
+                "id_name": {
+                  "type": "keyword"
+                },
+                "mmgid": {
+                  "type": "keyword"
+                },
+                "name": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "roles": {
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
