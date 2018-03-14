@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "intelligence": {
+      "properties": {
+        "_computed": {
+          "properties": {
+            "sectors": {
+              "type": "nested",
+              "properties": {
+                "id_name": {
+                  "type": "keyword"
+                },
+                "isdominant": {
+                  "type": "keyword"
+                },
+                "subsectors": {
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

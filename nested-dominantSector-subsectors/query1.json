@@ -1,0 +1,33 @@
+{
+
+  "size": 2,
+  "aggs": {
+    "sectors": {
+      "nested" : {
+        "path" : "_computed.sectors"
+      },
+      "aggs":{
+        "dominantSectors":{
+          "filter" : { "term": { "_computed.sectors.isdominant": "true" } },
+          "aggs":{
+            "dominantSector":{
+              "terms": {
+                "field": "_computed.sectors.id_name"
+              },
+              "aggs":{
+                "dominantSectorSubSectors":{
+                  "terms": {
+                    "field": "_computed.sectors.subsectors"
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+
+
+    }
+  }
+}
