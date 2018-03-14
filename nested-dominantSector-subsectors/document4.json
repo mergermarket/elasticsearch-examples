@@ -1,0 +1,32 @@
+{
+  "title": "doc three",
+  "_computed": {
+    "sectors": [ 
+    {
+        "subsectors": [
+            "prime-amouredvehicles<-id_name->Armoured vehicles, etc",
+            "prime-defence<-id_name->Defence aircraft and parts manufacture",
+            "prime-missilesguidance<-id_name->Missiles and missile guidance systems",
+            "prime-ordinanceother<-id_name->Other ordnance",
+            "prime-smallarms<-id_name->Small arms manufacturing"
+        ],
+        "isdominant": "false",
+        "id_name": "prime-defence<-id_name->Defence"
+        },
+        {
+        "subsectors": [
+            "prime-coal<-id_name->Coal related",
+            "prime-electricalgen<-id_name->Electrical power generation",
+            "prime-electricaltrans<-id_name->Electrical power transmission",
+            "prime-energyalt<-id_name->Alternative energy",
+            "prime-eneryconserve<-id_name->Energy conservation related",
+            "prime-exploredrill<-id_name->Exploration and drilling services and equipment",
+            "prime-oilgasexplore<-id_name->Oil and gas exploration and production"
+        ],
+        "isdominant": "true",
+        "id_name": "prime-energy<-id_name->Energy"
+        }
+    ]
+  },
+  "status": "final"
+}
