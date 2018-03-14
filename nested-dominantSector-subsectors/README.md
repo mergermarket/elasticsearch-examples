@@ -2,9 +2,13 @@
 
 1. `./create-index.sh` : creates a new empty index
 
-2. `./index-documents.sh` : puts 2 documents into the index: document1.json & document2.json
+2. `./index-documents.sh` : puts 4 documents into the index: document1.json, document2.json, document3.json, document4.json, 
 
-3. `./query.sh query1.json` : executes the query in query1.json  
+3. `./query.sh byDominantSector.json` : executes dominant sector query only
+
+4. `./query.sh byDominantSectorAndSubsector.json` : executes dominant sector and subsector query
+
+5. `./query.sh byDominantSectorWithFilter.json` : executes dominant sector and subsector with filter query
 
 ## nested-filter 
 
