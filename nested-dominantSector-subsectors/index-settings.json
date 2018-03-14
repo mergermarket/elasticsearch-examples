@@ -11,7 +11,7 @@
                   "type": "keyword"
                 },
                 "isdominant": {
-                  "type": "keyword"
+                  "type": "boolean"
                 },
                 "subsectors": {
                   "type": "keyword"

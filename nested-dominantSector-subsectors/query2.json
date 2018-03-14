@@ -1,40 +1,20 @@
 {
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "query_string": {
-            "query": "doc"
-          }
-        }
-      ],
-      "filter": {
-        "bool": {
-          "must": [
-            {
+  "size": 2,
+  "aggs": {
+    "sectors": {
+      "nested": {
+        "path": "_computed.sectors"
+      },
+      "aggs": {
+        "dominantSectors": {
+          "filter": { "term": { "_computed.sectors.isdominant": true } },
+          "aggs": {
+            "dominantSector": {
               "terms": {
-                "status": [
-                  "final"
-                ]
-              }
-            },
-            {
-              "nested": {
-                "path": "_computed.allCompanies",
-                "query": {
-                  "bool": {
-                    "must": [
-                      {
-                        "match": {
-                          "_computed.allCompanies.mmgid": "prime-15"
-                        }
-                      }
-                    ]
-                  }
-                }
+                "field": "_computed.sectors.id_name"
               }
             }
-          ]
+          }
         }
       }
     }

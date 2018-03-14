@@ -4,7 +4,6 @@
     "sectors": [
       {
         "id_name": "prime-consumerfoods<-id_name->Consumer: Foods",
-        "isdominant": "false",
         "subsectors": [
             "prime-agriprocessing<-id_name->Agri processing/ cereals",
             "prime-babyfood<-id_name->Baby food",
@@ -23,15 +22,12 @@
           "prime-apparel<-id_name->Apparel",
           "prime-buildingmaterial<-id_name->Building materials/DIY/Garden",
           "prime-chemists<-id_name->Chemists/health",
-          "prime-deptstores<-id_name->Department stores",
-          "prime-electricalapp<-id_name->Electrical appliances",
-          "prime-furniture<-id_name->Furniture",
           "prime-lifestyle<-id_name->Lifestyle including sports/music/books etc",
           "prime-retailother<-id_name->Other retailing of consumer products and services",
           "prime-supermarkets<-id_name->Supermarkets (food chains)",
           "prime-vehicles<-id_name->Vehicles"
         ],
-        "isdominant": "true",
+        "isdominant": true,
         "id_name": "prime-consumerretail<-id_name->Consumer: Retail"
       }
     ]

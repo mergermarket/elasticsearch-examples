@@ -4,7 +4,7 @@
     "sectors": [
       {
         "id_name": "prime-chemicalmat<-id_name->Chemicals and materials",
-        "isdominant": "true",
+        "isdominant": true,
         "subsectors": [
           "prime-agrochem<-id_name->Agrochemicals",
           "prime-commoditychem<-id_name->Commodity chemicals (non-petrochemical)",
@@ -36,7 +36,6 @@
           "prime-supermarkets<-id_name->Supermarkets (food chains)",
           "prime-vehicles<-id_name->Vehicles"
         ],
-        "isdominant": "false",
         "id_name": "prime-consumerretail<-id_name->Consumer: Retail"
       }
     ]

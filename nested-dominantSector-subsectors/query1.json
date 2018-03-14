@@ -8,7 +8,7 @@
       },
       "aggs":{
         "dominantSectors":{
-          "filter" : { "term": { "_computed.sectors.isdominant": "true" } },
+          "filter" : { "term": { "_computed.sectors.isdominant": true } },
           "aggs":{
             "dominantSector":{
               "terms": {

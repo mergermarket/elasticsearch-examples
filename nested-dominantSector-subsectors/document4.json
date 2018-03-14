@@ -10,7 +10,6 @@
             "prime-ordinanceother<-id_name->Other ordnance",
             "prime-smallarms<-id_name->Small arms manufacturing"
         ],
-        "isdominant": "false",
         "id_name": "prime-defence<-id_name->Defence"
         },
         {
@@ -23,7 +22,7 @@
             "prime-exploredrill<-id_name->Exploration and drilling services and equipment",
             "prime-oilgasexplore<-id_name->Oil and gas exploration and production"
         ],
-        "isdominant": "true",
+        "isdominant": true,
         "id_name": "prime-energy<-id_name->Energy"
         }
     ]
