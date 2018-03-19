@@ -1,0 +1,57 @@
+{
+  "title": "doc three",
+  "_computed": {
+    "sectors": [
+      {
+        "id_name": "prime-consumerfoods<-id_name->Consumer: Foods",
+        "subsectors": [
+            "prime-agriprocessing<-id_name->Agri processing/ cereals",
+            "prime-babyfood<-id_name->Baby food",
+            "prime-bakedgoods<-id_name->Baked goods",
+            "prime-dairy<-id_name->Dairy products",
+            "prime-fishmeatpoultry<-id_name->Fish/ meat/ poultry",
+            "prime-foodingredients<-id_name->Food ingredients",
+            "prime-foodothers<-id_name->Food-others",
+            "prime-freshproduce<-id_name->Fresh produce",
+            "prime-frozenproduce<-id_name->Frozen and chilled foods",
+            "prime-sugarconfect<-id_name->Sugar and confectionery"
+        ],
+        "subsectorsmmgids": [
+          "prime-agriprocessing",
+          "prime-babyfood",
+          "prime-bakedgoods",
+          "prime-dairy",
+          "prime-fishmeatpoultry",
+          "prime-foodingredients",
+          "prime-foodothers",
+          "prime-freshproduce",
+          "prime-frozenproduce",
+          "prime-sugarconfect"
+        ]
+      },
+      {
+        "subsectors": [
+          "prime-apparel<-id_name->Apparel",
+          "prime-buildingmaterial<-id_name->Building materials/DIY/Garden",
+          "prime-chemists<-id_name->Chemists/health",
+          "prime-lifestyle<-id_name->Lifestyle including sports/music/books etc",
+          "prime-retailother<-id_name->Other retailing of consumer products and services",
+          "prime-supermarkets<-id_name->Supermarkets (food chains)",
+          "prime-vehicles<-id_name->Vehicles"
+        ],
+        "subsectorsmmgids": [
+          "prime-apparel",
+          "prime-buildingmaterial",
+          "prime-chemists",
+          "prime-lifestyle",
+          "prime-retailother",
+          "prime-supermarkets",
+          "prime-vehicles"
+        ],
+        "isdominant": true,
+        "id_name": "prime-consumerretail<-id_name->Consumer: Retail"
+      }
+    ]
+  },
+  "status": "final"
+}

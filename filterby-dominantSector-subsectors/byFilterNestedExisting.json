@@ -1,0 +1,45 @@
+{
+  "query":{
+    "bool":{
+      "must":[
+        {
+          "query_string":{
+            "query":"doc",
+            "default_operator":"and",
+            "fields":[
+              "title"
+            ]
+          }
+        }
+      ],
+      "filter":{
+        "bool":{
+          "must":[
+            {
+              "nested":{
+                "path":"_computed.sectors",
+                "query":{
+                  "bool":{
+                    "should":[
+                      {
+                          "prefix" : { "_computed.sectors.subsectors":"prime-lifestyle<-id_name->" }
+                      },
+                      {
+                          "prefix" : { "_computed.sectors.subsectors":"prime-retailother<-id_name->" }
+                      }
+                    ],
+                    "must":[{"match":{
+                      "_computed.sectors.isdominant":true
+                    }}]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "size":20,
+  "from":0
+}
