@@ -6,64 +6,22 @@
         "id_name": "prime-chemicalmat<-id_name->Chemicals and materials",
         "isdominant": true,
         "subsectors": [
-          "prime-agrochem<-id_name->Agrochemicals",
-          "prime-commoditychem<-id_name->Commodity chemicals (non-petrochemical)",
-          "prime-constructionchem<-id_name->Construction chemicals",
-          "prime-cosmeticcarechem<-id_name->Cosmetic/care chemicals",
-          "prime-finechemother<-id_name->Fine chemicals- other",
-          "prime-finechempharm<-id_name->Fine chemicals- pharmaceuticals",
-          "prime-flavourfragrance<-id_name->Flavours and fragrances",
-          "prime-foodadditives<-id_name->Food additives/ ingredients",
-          "prime-indgases<-id_name->Industrial gases",
-          "prime-inorganicchem<-id_name->Inorganic chemicals",
-          "prime-paintchem<-id_name->Paints and chemicals",
-          "prime-perrochemderiv<-id_name->Petrochemicals- derivatives",
-          "prime-petrochembase<-id_name->Petrochemicals- base",
-          "prime-speciality<-id_name->Speciality-other",
-          "prime-specialityinter<-id_name->Specialities - intermediates"
+          "prime-agrochem<-id_name->Agrochemicals"
         ],
         "subsectorsmmgids": [
-          "prime-agrochem",
-          "prime-commoditychem",
-          "prime-constructionchem",
-          "prime-cosmeticcarechem",
-          "prime-finechemother",
-          "prime-finechempharm",
-          "prime-flavourfragrance",
-          "prime-foodadditives",
-          "prime-indgases",
-          "prime-inorganicchem",
-          "prime-paintchem",
-          "prime-perrochemderiv",
-          "prime-petrochembase",
-          "prime-speciality",
-          "prime-specialityinter"
+          "prime-agrochem"
         ]
       },
       {
         "subsectors": [
-          "prime-apparel<-id_name->Apparel",
-          "prime-buildingmaterial<-id_name->Building materials/DIY/Garden",
-          "prime-chemists<-id_name->Chemists/health",
-          "prime-deptstores<-id_name->Department stores",
-          "prime-electricalapp<-id_name->Electrical appliances",
-          "prime-furniture<-id_name->Furniture",
           "prime-lifestyle<-id_name->Lifestyle including sports/music/books etc",
           "prime-retailother<-id_name->Other retailing of consumer products and services",
-          "prime-supermarkets<-id_name->Supermarkets (food chains)",
-          "prime-vehicles<-id_name->Vehicles"
+          "prime-supermarkets<-id_name->Supermarkets (food chains)"
         ],
         "subsectorsmmgids": [
-          "prime-apparel",
-          "prime-buildingmaterial",
-          "prime-chemists",
-          "prime-deptstores",
-          "prime-electricalapp",
-          "prime-furniture",
           "prime-lifestyle",
           "prime-retailother",
-          "prime-supermarkets",
-          "prime-vehicles"
+          "prime-supermarkets"
         ],
         "id_name": "prime-consumerretail<-id_name->Consumer: Retail"
       }

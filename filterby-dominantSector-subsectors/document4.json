@@ -22,22 +22,10 @@
         {
         "subsectors": [
             "prime-coal<-id_name->Coal related",
-            "prime-electricalgen<-id_name->Electrical power generation",
-            "prime-electricaltrans<-id_name->Electrical power transmission",
-            "prime-energyalt<-id_name->Alternative energy",
-            "prime-eneryconserve<-id_name->Energy conservation related",
-            "prime-exploredrill<-id_name->Exploration and drilling services and equipment",
-            "prime-retailotherr<-id_name->Other retailing of consumer products and services",
-            "prime-oilgasexplore<-id_name->Oil and gas exploration and production"
+            "prime-retailotherr<-id_name->Other retailing of consumer products and services"
         ],
           "subsectorsmmgids": [
             "prime-coal",
-            "prime-electricalgen",
-            "prime-electricaltrans",
-            "prime-energyalt",
-            "prime-eneryconserve",
-            "prime-exploredrill",
-            "prime-oilgasexplore",
             "prime-retailotherr"
           ],
         "isdominant": true,

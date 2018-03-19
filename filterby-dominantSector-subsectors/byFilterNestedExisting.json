@@ -29,7 +29,7 @@
                       }
                     ],
                     "must":[{"match":{
-                      "_computed.sectors.isdominant":true
+                      "_computed.sectors.isdominant":"true"
                     }}]
                   }
                 }
