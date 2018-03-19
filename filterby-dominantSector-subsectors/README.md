@@ -4,15 +4,13 @@
 
 2. `./index-documents.sh` : puts 4 documents into the index: document1.json, document2.json, document3.json, document4.json, 
 
-3. `./query.sh byDominantSector.json` : executes dominant sector query only
+3. `./query.sh byFilterNested.json` : executes dominant sector query only
 
-4. `./query.sh byDominantSectorAndSubsector.json` : executes dominant sector and subsector query
+4. `./query.sh byFilterNestedExisting.json` : executes dominant sector and subsector query
 
-5. `./query.sh byDominantSectorWithFilter.json` : executes dominant sector and subsector with filter query
+## nested-filter
 
-## nested-filter 
-
-A nested aggregation with filter.
+A nested query with filter.
 
 Given some documents like:
 
@@ -55,6 +53,18 @@ Given some documents like:
           "prime-supermarkets<-id_name->Supermarkets (food chains)",
           "prime-vehicles<-id_name->Vehicles"
         ],
+        "subsectorsmmgids": [
+          "prime-apparel",
+          "prime-buildingmaterial",
+          "prime-chemists",
+          "prime-deptstores",
+          "prime-electricalapp",
+          "prime-furniture",
+          "prime-lifestyle",
+          "prime-retailother",
+          "prime-supermarkets",
+          "prime-vehicles"
+        ],
         "isdominant": "false",
         "id_name": "prime-consumerretail<-id_name->Consumer: Retail"
       }
@@ -64,46 +74,62 @@ Given some documents like:
 }
 ```
 
-We want to do a search on some text fields, and group by particular field '_computed.sectors.isdominant' and return its subsectors
+We want to do a search on some text fields, and filter by particuar field `_computed.sectors.isdominant` and also look for specific subsector in that dominant sector
 
 Our index has '_computed.sectors' property configured as 'nested' - see [./index-settings.json](index-settings.json)
 
-That nested business means we have to use a different kind of aggregation and filter aggregation query.
+That nested business means we have to use a different kind of filter query.
 
 
 ```json
 {
-
-  "size": 2,
-  "aggs": {
-    "sectors": {
-      "nested" : {
-        "path" : "_computed.sectors"
-      },
-      "aggs":{
-        "dominantSectors":{
-          "filter" : { "term": { "_computed.sectors.isdominant": "true" } },
-          "aggs":{
-            "dominantSector":{
-              "terms": {
-                "field": "_computed.sectors.id_name"
-              },
-              "aggs":{
-                "dominantSectorSubSectors":{
-                  "terms": {
-                    "field": "_computed.sectors.subsectors"
+  "query":{
+    "bool":{
+      "must":[
+        {
+          "query_string":{
+            "query":"doc",
+            "default_operator":"and",
+            "fields":[
+              "title"
+            ]
+          }
+        }
+      ],
+      "filter":{
+        "bool":{
+          "must":[
+            {
+              "nested":{
+                "path":"_computed.sectors",
+                "query":{
+                  "bool":{
+                    "should":[
+                      {
+                        "match":{
+                          "_computed.sectors.subsectorsmmgids":"prime-lifestyle"
+                        }
+                      },
+                      {
+                        "match":{
+                          "_computed.sectors.subsectorsmmgids":"prime-retailother"
+                        }
+                      }
+                    ],
+                    "must":[{"match":{
+                      "_computed.sectors.isdominant":true
+                    }}]
                   }
                 }
               }
             }
-
-          }
+          ]
         }
       }
-
-
     }
-  }
+  },
+  "size":20,
+  "from":0
 }
 
 ```
