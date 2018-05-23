@@ -1,0 +1,9 @@
+{
+  "query": {
+    "query_string" : {
+      "query" : "England profits",
+      "default_operator": "AND",
+      "fields": ["body", "headline"]
+    }
+  }
+}
