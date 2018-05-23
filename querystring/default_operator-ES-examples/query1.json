@@ -1,0 +1,9 @@
+{
+  "query": {
+    "query_string": {
+      "query": "cat dog",
+      "default_operator": "AND",
+      "fields": ["foo","bar"]
+    }
+  }
+}

@@ -1,8 +1,7 @@
 {
   "query": {
     "query_string" : {
-      "query" : "water profits",
-      "default_operator": "AND",
+      "query" : "England AND profits",
       "fields": ["body", "headline"]
     }
   }

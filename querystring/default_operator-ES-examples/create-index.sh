@@ -11,10 +11,3 @@ echo "Creating $INDEX"
 
 curl -XPUT -H'Content-Type: application/json' -d@"$SETTINGS_FILE" "http://localhost:9200/$INDEX"
 
-echo "Checking setting of $INDEX"
-
-curl -XGET -H'Content-Type: application/json' -d@"$SETTINGS_FILE" "http://localhost:9200/$INDEX/_settings"
-
-echo "Checking mapping of $INDEX"
-
-curl -XGET -H'Content-Type: application/json' -d@"$SETTINGS_FILE" "http://localhost:9200/$INDEX/_mapping"

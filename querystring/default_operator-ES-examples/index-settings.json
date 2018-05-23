@@ -6,10 +6,10 @@
   "mappings": {
     "atype": {
       "properties": {
-        "body": {
+        "foo": {
           "type": "text"
         },
-        "headline": {
+        "bar": {
           "type": "text"
         }
       }
