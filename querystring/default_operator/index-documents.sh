@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-INDEX='my-first-index'
-TYPE='atype'
+INDEX='company-search-aslive-v3'
+TYPE='company'
 
 for file in `ls document*.json`; do
   id=`echo "$file" | sed "s/\(document[0-9]*\)\.json/\1/"`

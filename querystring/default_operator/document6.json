@@ -1,0 +1,181 @@
+{
+  "name": "Australia and New Zealand Banking Group Limited",
+  "description": "Australia-based company engaged in providing banking and financial products and services",
+  "isMainPEVCEntity": false,
+  "isApprovedForPEPortfolio": false,
+  "editStatus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "ANZ",
+      "mmgid": "prime-1324899",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "corporate",
+      "value": "Corporate",
+      "mmgid": "prime-corporate"
+    }
+  ],
+  "countries": [
+    {
+      "code": "AUS",
+      "value": "Australia",
+      "mmgid": "prime-AUS"
+    },
+    {
+      "code": "NZL",
+      "value": "New Zealand",
+      "mmgid": "prime-NZL"
+    }
+  ],
+  "states": [],
+  "ownership": {
+    "code": "public",
+    "value": "Public company",
+    "mmgid": "prime-public"
+  },
+  "sectors": [
+    {
+      "code": "finance",
+      "value": "Financial Services",
+      "mmgid": "prime-finance"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "banking",
+      "value": "Banking",
+      "mmgid": "prime-banking"
+    },
+    {
+      "code": "fundmanagement",
+      "value": "Fund management",
+      "mmgid": "prime-fundmanagement"
+    },
+    {
+      "code": "insurance",
+      "value": "Insurance related",
+      "mmgid": "prime-insurance"
+    },
+    {
+      "code": "invbanking",
+      "value": "Investment banking",
+      "mmgid": "prime-invbanking"
+    },
+    {
+      "code": "investbroking",
+      "value": "Investment broking",
+      "mmgid": "prime-investbroking"
+    },
+    {
+      "code": "principalfinance",
+      "value": "Principal finance",
+      "mmgid": "prime-principalfinance"
+    },
+    {
+      "code": "seccommbrokers",
+      "value": "Securities and commodities brokers",
+      "mmgid": "prime-seccommbrokers"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-AUS",
+      "code": "AUS",
+      "value": "Australia"
+    },
+    "state": {
+      "mmgid": "prime-VIC",
+      "code": "VIC",
+      "value": "Victoria"
+    },
+    "postcode": "3008"
+  },
+  "identifiers": {
+    "equity": {
+      "ticker": [
+        {
+          "relatedExchange": {
+            "id": 8
+          },
+          "symbol": "ANZ"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "ANZBY"
+        }
+      ],
+      "sedol": [
+        {
+          "relatedExchange": {
+            "id": 8
+          },
+          "symbol": "6065586"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "2064543"
+        }
+      ],
+      "isin": [
+        {
+          "relatedExchange": {
+            "id": 8
+          },
+          "symbol": "AU000000ANZ3"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "US0525283042"
+        }
+      ]
+    }
+  },
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": true,
+      "indices": [
+        {
+          "id": "LA",
+          "name": "Large Asia (USD > 2bn)",
+          "mmgid": "prime-LA",
+          "product": "Dealreporter",
+          "edition": "Asia"
+        }
+      ],
+      "intelCounts": {
+        "allEditions": 1410
+      }
+    },
+    "mergermarket": {
+      "hasDeals": true,
+      "intelCounts": {
+        "allEditions": 1660
+      }
+    },
+    "debtwire": {
+      "universes": [],
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-8271",
+  "_computed": {
+    "lowercaseName": "australia and new zealand banking group limited"
+  }
+}

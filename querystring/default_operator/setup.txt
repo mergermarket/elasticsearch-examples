@@ -1,0 +1,136 @@
+DELETE company-search-aslive-v3
+
+PUT company-search-aslive-v3
+{
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "partial_filter": {
+          "type": "nGram",
+          "min_gram": "1",
+          "max_gram": "30"
+        }
+      },
+      "analyzer": {
+        "partial_analyzer": {
+          "filter": [
+            "standard",
+            "lowercase",
+            "partial_filter"
+          ],
+          "tokenizer": "standard"
+        },
+        "my_analyzer": {
+          "filter": [
+            "standard",
+            "lowercase"
+          ],
+          "tokenizer": "standard"
+        }
+      }
+    }
+  }
+}
+
+GET company-search-aslive-v3/_search
+
+
+PUT company-search-aslive-v3/company/_mapping
+{
+  "company": {
+    "dynamic": false,
+    "properties": {
+      "name": {
+        "type": "text",
+        "fields": {
+          "partial": {
+            "type": "text",
+            "analyzer": "partial_analyzer",
+            "search_analyzer": "my_analyzer"
+          }
+        }
+      },
+      "aliases": {
+        "properties": {
+          "value": {
+            "type": "text",
+            "fields": {
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "my_analyzer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+POST company-search-aslive-v3/company
+{
+  "name": "Microsoft Corporation",
+  "aliases": ["Mic", "Micro corp"]
+}
+
+POST company-search-aslive-v3/company
+{
+  "name": "KPMG",
+  "aliases": ["kpmg", "consultency"]
+}
+
+POST company-search-aslive-v3/company
+{
+  "name": "The New York Times",
+  "aliases": ["new york times", "nyt"]
+}
+
+POST company-search-aslive-v3/company
+{
+  "name": "The Newt Pork Times",
+  "aliases": ["newsdf psdfaork times", "pyt"]
+}
+
+POST company-search-aslive-v3/company/_search
+{
+  "_source": false,
+  "query": {
+    "multi_match": {
+      "fields": [
+        "name.partial",
+        "aliases.value.partial"
+      ],
+      "operator": "AND", 
+      "query": "\"banking g\""
+    }
+  },
+  "highlight": {
+    "fields": {
+      "name.partial": {},
+      "aliases.value.partial": {}
+    }
+  }
+}
+
+POST company-search-aslive-v3/company/_search
+{
+  "_source": false,
+  "query": {
+    "multi_match": {
+      "fields": [
+        "name.partial",
+        "aliases.value.partial"
+      ],
+      "operator": "AND", 
+      "query": "\"new yor\""
+    }
+  },
+  "highlight": {
+    "fields": {
+      "name.partial": {},
+      "aliases.value.partial": {}
+    }
+  }
+}

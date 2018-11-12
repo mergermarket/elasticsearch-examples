@@ -1,4 +1,276 @@
 {
-  "body": "M&S profits slump on store closure costs",
-  "headline": "Annual pre-tax sales fell by almost two-thirds to £66.8m as sales of food, water, clothing and homeware all declined"
+  "name": "The Bank of New York Mellon Corporation",
+  "description": "US-based company engaged in providing commercial banking and other financial services to corporations and individuals",
+  "isMainPEVCEntity": false,
+  "isApprovedForPEPortfolio": false,
+  "editStatus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "Bank of New York Mellon Corp",
+      "mmgid": "prime-1200836",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "BNY Mellon",
+      "mmgid": "prime-1200837",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "formerly known as The Bank of New York Company Inc",
+      "mmgid": "prime-1200838",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "The Bank of New York Inc",
+      "mmgid": "prime-1200839",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "corporate",
+      "value": "Corporate",
+      "mmgid": "prime-corporate"
+    },
+    {
+      "code": "fund",
+      "value": "Fund",
+      "mmgid": "prime-fund"
+    },
+    {
+      "code": "investmentbank",
+      "value": "Investment Bank",
+      "mmgid": "prime-investmentbank"
+    }
+  ],
+  "countries": [
+    {
+      "code": "USA",
+      "value": "USA",
+      "mmgid": "prime-USA"
+    }
+  ],
+  "states": [
+    {
+      "code": "NY",
+      "value": "New York (NY)",
+      "mmgid": "prime-NY"
+    }
+  ],
+  "ownership": {
+    "code": "public",
+    "value": "Public company",
+    "mmgid": "prime-public"
+  },
+  "sectors": [
+    {
+      "code": "finance",
+      "value": "Financial Services",
+      "mmgid": "prime-finance"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "banking",
+      "value": "Banking",
+      "mmgid": "prime-banking"
+    },
+    {
+      "code": "fundmanagement",
+      "value": "Fund management",
+      "mmgid": "prime-fundmanagement"
+    },
+    {
+      "code": "invbanking",
+      "value": "Investment banking",
+      "mmgid": "prime-invbanking"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-USA",
+      "code": "USA",
+      "value": "USA"
+    },
+    "state": {
+      "mmgid": "prime-NY",
+      "code": "NY",
+      "value": "New York (NY)"
+    },
+    "postcode": "10286"
+  },
+  "identifiers": {
+    "equity": {
+      "ticker": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "BK"
+        }
+      ],
+      "sedol": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "B1Z77F6"
+        }
+      ],
+      "isin": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "US0640581007"
+        }
+      ]
+    }
+  },
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": false,
+      "indices": [
+        {
+          "id": "IGradeCreditCoverage",
+          "name": "I-Grade Americas",
+          "mmgid": "prime-IGradeCreditCoverage",
+          "product": "Dealreporter",
+          "edition": "North America"
+        },
+        {
+          "id": "LUS",
+          "name": "Large USA (USD > 2bn)",
+          "mmgid": "prime-LUS",
+          "product": "Dealreporter",
+          "edition": "North America"
+        }
+      ],
+      "intelCounts": {
+        "allEditions": 791
+      }
+    },
+    "mergermarket": {
+      "hasDeals": false,
+      "intelCounts": {
+        "allEditions": 632
+      }
+    },
+    "debtwire": {
+      "universes": [
+        {
+          "mmgid": "prime-highyield",
+          "universeType": "muniversecode",
+          "name": "High Yield/Unrated ",
+          "siteEditionTagging": [
+            {
+              "id": "512_2",
+              "edition": "North America",
+              "product": "Municipals",
+              "mmgid": "prime-512_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-investmentgrade",
+          "universeType": "muniversecode",
+          "name": "Investment Grade",
+          "siteEditionTagging": [
+            {
+              "id": "512_2",
+              "edition": "North America",
+              "product": "Municipals",
+              "mmgid": "prime-512_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-restructuring",
+          "universeType": "muniversecode",
+          "name": "Restructuring",
+          "siteEditionTagging": [
+            {
+              "id": "512_2",
+              "edition": "North America",
+              "product": "Municipals",
+              "mmgid": "prime-512_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-stressed",
+          "universeType": "muniversecode",
+          "name": "Stressed",
+          "siteEditionTagging": [
+            {
+              "id": "512_2",
+              "edition": "North America",
+              "product": "Municipals",
+              "mmgid": "prime-512_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-BREACHED",
+          "universeType": "absuniversecode",
+          "name": "Breached",
+          "siteEditionTagging": [
+            {
+              "id": "256_2",
+              "edition": "North America",
+              "product": "Abs",
+              "mmgid": "prime-256_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-RESTRUCTURING",
+          "universeType": "absuniversecode",
+          "name": "Restructuring",
+          "siteEditionTagging": [
+            {
+              "id": "256_2",
+              "edition": "North America",
+              "product": "Abs",
+              "mmgid": "prime-256_2"
+            }
+          ]
+        },
+        {
+          "mmgid": "prime-ATRISK",
+          "universeType": "absuniversecode",
+          "name": "Stressed",
+          "siteEditionTagging": [
+            {
+              "id": "256_2",
+              "edition": "North America",
+              "product": "Abs",
+              "mmgid": "prime-256_2"
+            }
+          ]
+        }
+      ],
+      "dominantSector": {
+        "mmgid": "prime-finance",
+        "code": "finance",
+        "value": "Financial Services"
+      },
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-3685",
+  "_computed": {
+    "lowercaseName": "the bank of new york mellon corporation"
+  }
 }

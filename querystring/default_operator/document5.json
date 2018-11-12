@@ -1,6 +1,6 @@
 {
-  "name": "New York Life Insurance Company",
-  "description": "US-based company engaged in providing life insurance, annuities, mutual funds and investment management services",
+  "name": "Convertible Bonds -dR Asia - New issuances. ",
+  "description": null,
   "isMainPEVCEntity": false,
   "isApprovedForPEPortfolio": false,
   "editStatus": "final",
@@ -16,22 +16,16 @@
   ],
   "countries": [
     {
-      "code": "USA",
-      "value": "USA",
-      "mmgid": "prime-USA"
+      "code": "IND",
+      "value": "India",
+      "mmgid": "prime-IND"
     }
   ],
-  "states": [
-    {
-      "code": "NY",
-      "value": "New York (NY)",
-      "mmgid": "prime-NY"
-    }
-  ],
+  "states": [],
   "ownership": {
-    "code": "private",
-    "value": "Private company",
-    "mmgid": "prime-private"
+    "code": "public",
+    "value": "Public company",
+    "mmgid": "prime-public"
   },
   "sectors": [
     {
@@ -45,25 +39,20 @@
       "code": "fundmanagement",
       "value": "Fund management",
       "mmgid": "prime-fundmanagement"
-    },
-    {
-      "code": "insurance",
-      "value": "Insurance related",
-      "mmgid": "prime-insurance"
     }
   ],
   "headquarters": {
     "country": {
-      "mmgid": "prime-USA",
-      "code": "USA",
-      "value": "USA"
+      "mmgid": "prime-IND",
+      "code": "IND",
+      "value": "India"
     },
     "state": {
-      "mmgid": "prime-NY",
-      "code": "NY",
-      "value": "New York (NY)"
+      "mmgid": null,
+      "code": null,
+      "value": null
     },
-    "postcode": "10010"
+    "postcode": null
   },
   "identifiers": {},
   "productAttributes": {
@@ -72,31 +61,26 @@
       "municipalsSectors": []
     },
     "dealreporter": {
-      "hasDeals": true,
+      "hasDeals": false,
       "indices": [],
       "intelCounts": {
-        "allEditions": 74
+        "allEditions": 2810
       }
     },
     "mergermarket": {
-      "hasDeals": true,
+      "hasDeals": false,
       "intelCounts": {
-        "allEditions": 95
+        "allEditions": 1676
       }
     },
     "debtwire": {
       "universes": [],
-      "dominantCountry": {
-        "mmgid": "prime-USA",
-        "code": "USA",
-        "value": "USA"
-      },
       "editions": [],
       "watchlists": []
     }
   },
-  "mmgid": "prime-69021",
+  "mmgid": "prime-284338",
   "_computed": {
-    "lowercaseName": "new york life insurance company"
+    "lowercaseName": "convertible bonds -dr asia - new issuances. "
   }
 }

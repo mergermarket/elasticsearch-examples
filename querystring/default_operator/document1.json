@@ -1,4 +1,170 @@
 {
-  "body": "M&S profits slump on store closure costs",
-  "headline": "Annual pre-tax profits fell by almost two-thirds to £66.8m as sales of food, clothing and homeware all declined"
+  "name": "The New York Times Company",
+  "description": "US-based media company involved in newspaper publishing, television and radio broadcasting",
+  "isMainPEVCEntity": false,
+  "isApprovedForPEPortfolio": false,
+  "editStnew yus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "New York Times",
+      "mmgid": "prime-1297202",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "NYT",
+      "mmgid": "prime-1297203",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "corporate",
+      "value": "Corporate",
+      "mmgid": "prime-corporate"
+    }
+  ],
+  "countries": [
+    {
+      "code": "USA",
+      "value": "USA",
+      "mmgid": "prime-USA"
+    }
+  ],
+  "states": [
+    {
+      "code": "NY",
+      "value": "New York (NY)",
+      "mmgid": "prime-NY"
+    }
+  ],
+  "ownership": {
+    "code": "public",
+    "value": "Public company",
+    "mmgid": "prime-public"
+  },
+  "sectors": [
+    {
+      "code": "internet",
+      "value": "Internet / ecommerce",
+      "mmgid": "prime-internet"
+    },
+    {
+      "code": "media",
+      "value": "Media",
+      "mmgid": "prime-media"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "portals",
+      "value": "Portals",
+      "mmgid": "prime-portals"
+    },
+    {
+      "code": "publishing",
+      "value": "Publishing",
+      "mmgid": "prime-publishing"
+    },
+    {
+      "code": "radiobroadcast",
+      "value": "Radio broadcast",
+      "mmgid": "prime-radiobroadcast"
+    },
+    {
+      "code": "tvbroadcast",
+      "value": "TV broadcast",
+      "mmgid": "prime-tvbroadcast"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-USA",
+      "code": "USA",
+      "value": "USA"
+    },
+    "state": {
+      "mmgid": "prime-NY",
+      "code": "NY",
+      "value": "New York (NY)"
+    },
+    "postcode": "10018"
+  },
+  "identifiers": {
+    "equity": {
+      "ticker": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "NYT"
+        }
+      ],
+      "sedol": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "2632003"
+        }
+      ],
+      "isin": [
+        {
+          "relatedExchange": {
+            "id": 95
+          },
+          "symbol": "US6501111073"
+        }
+      ]
+    }
+  },
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": false,
+      "indices": [
+        {
+          "id": "MUS",
+          "name": "Medium USA (USD 1 - 2bn)",
+          "mmgid": "prime-MUS",
+          "product": "Dealreporter",
+          "edition": "North America"
+        }
+      ],
+      "intelCounts": {
+        "allEditions": 198
+      }
+    },
+    "mergermarket": {
+      "hasDeals": true,
+      "intelCounts": {
+        "allEditions": 335
+      }
+    },
+    "debtwire": {
+      "universes": [],
+      "dominantSector": {
+        "mmgid": "prime-media",
+        "code": "media",
+        "value": "Media"
+      },
+      "dominantCountry": {
+        "mmgid": "prime-USA",
+        "code": "USA",
+        "value": "USA"
+      },
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-16251",
+  "_computed": {
+    "lowercaseName": "the new york times company"
+  }
 }

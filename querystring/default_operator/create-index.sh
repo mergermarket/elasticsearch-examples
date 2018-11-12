@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-INDEX='my-first-index'
+INDEX='company-search-aslive-v3'
 SETTINGS_FILE='index-settings.json'
 
 echo "Deleting $INDEX"

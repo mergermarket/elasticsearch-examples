@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-INDEX='my-first-index'
+INDEX='company-search-aslive-v3'
 TYPE='atype'
 
 if [ -z "$1" ]

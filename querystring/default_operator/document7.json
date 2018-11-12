@@ -1,0 +1,117 @@
+{
+  "name": "New Enterprise Associates",
+  "description": "US-based venture capital firm investing between USD 0.05m and USD 20m in technology and healthcare businesses",
+  "isMainPEVCEntity": true,
+  "isApprovedForPEPortfolio": true,
+  "editStatus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "NEA",
+      "mmgid": "prime-1327261",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "NEA Capital",
+      "mmgid": "prime-1327262",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "NEA Ventures",
+      "mmgid": "prime-1327263",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "New Enterprise Associates Ltd.",
+      "mmgid": "prime-1327264",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "pevchouse",
+      "value": "PE/VC House",
+      "mmgid": "prime-pevchouse"
+    }
+  ],
+  "countries": [
+    {
+      "code": "USA",
+      "value": "USA",
+      "mmgid": "prime-USA"
+    }
+  ],
+  "states": [
+    {
+      "code": "CA",
+      "value": "California (CA)",
+      "mmgid": "prime-CA"
+    }
+  ],
+  "ownership": {
+    "code": "private",
+    "value": "Private company",
+    "mmgid": "prime-private"
+  },
+  "sectors": [
+    {
+      "code": "finance",
+      "value": "Financial Services",
+      "mmgid": "prime-finance"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "venturecapital",
+      "value": "Venture Capital/Private Equity",
+      "mmgid": "prime-venturecapital"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-USA",
+      "code": "USA",
+      "value": "USA"
+    },
+    "state": {
+      "mmgid": "prime-CA",
+      "code": "CA",
+      "value": "California (CA)"
+    },
+    "postcode": "94025"
+  },
+  "identifiers": {},
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": false,
+      "indices": [],
+      "intelCounts": {
+        "allEditions": 156
+      }
+    },
+    "mergermarket": {
+      "hasDeals": true,
+      "intelCounts": {
+        "allEditions": 792
+      }
+    },
+    "debtwire": {
+      "universes": [],
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-78941",
+  "_computed": {
+    "lowercaseName": "new enterprise associates"
+  }
+}

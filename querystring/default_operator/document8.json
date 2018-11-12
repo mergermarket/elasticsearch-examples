@@ -1,6 +1,6 @@
 {
-  "name": "New York Life Insurance Company",
-  "description": "US-based company engaged in providing life insurance, annuities, mutual funds and investment management services",
+  "name": "Newbridge Capital Group LLC",
+  "description": "US based Asian investment arm of Texas Pacific Partners. The company's aims include seeking new business opportunities and managing its investments",
   "isMainPEVCEntity": false,
   "isApprovedForPEPortfolio": false,
   "editStatus": "final",
@@ -12,6 +12,11 @@
       "code": "corporate",
       "value": "Corporate",
       "mmgid": "prime-corporate"
+    },
+    {
+      "code": "pevchouse",
+      "value": "PE/VC House",
+      "mmgid": "prime-pevchouse"
     }
   ],
   "countries": [
@@ -23,9 +28,9 @@
   ],
   "states": [
     {
-      "code": "NY",
-      "value": "New York (NY)",
-      "mmgid": "prime-NY"
+      "code": "TX",
+      "value": "Texas (TX)",
+      "mmgid": "prime-TX"
     }
   ],
   "ownership": {
@@ -42,14 +47,14 @@
   ],
   "subsectors": [
     {
-      "code": "fundmanagement",
-      "value": "Fund management",
-      "mmgid": "prime-fundmanagement"
+      "code": "principalfinance",
+      "value": "Principal finance",
+      "mmgid": "prime-principalfinance"
     },
     {
-      "code": "insurance",
-      "value": "Insurance related",
-      "mmgid": "prime-insurance"
+      "code": "venturecapital",
+      "value": "Venture Capital/Private Equity",
+      "mmgid": "prime-venturecapital"
     }
   ],
   "headquarters": {
@@ -59,11 +64,11 @@
       "value": "USA"
     },
     "state": {
-      "mmgid": "prime-NY",
-      "code": "NY",
-      "value": "New York (NY)"
+      "mmgid": "prime-TX",
+      "code": "TX",
+      "value": "Texas (TX)"
     },
-    "postcode": "10010"
+    "postcode": "TX761024140"
   },
   "identifiers": {},
   "productAttributes": {
@@ -72,31 +77,26 @@
       "municipalsSectors": []
     },
     "dealreporter": {
-      "hasDeals": true,
+      "hasDeals": false,
       "indices": [],
       "intelCounts": {
-        "allEditions": 74
+        "allEditions": 389
       }
     },
     "mergermarket": {
       "hasDeals": true,
       "intelCounts": {
-        "allEditions": 95
+        "allEditions": 408
       }
     },
     "debtwire": {
       "universes": [],
-      "dominantCountry": {
-        "mmgid": "prime-USA",
-        "code": "USA",
-        "value": "USA"
-      },
       "editions": [],
       "watchlists": []
     }
   },
-  "mmgid": "prime-69021",
+  "mmgid": "prime-7462",
   "_computed": {
-    "lowercaseName": "new york life insurance company"
+    "lowercaseName": "newbridge capital group llc"
   }
 }

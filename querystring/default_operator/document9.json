@@ -1,0 +1,166 @@
+{
+  "name": "Spark New Zealand Limited",
+  "description": "New Zealand-based provider of telecommunications and information, communication and technology services",
+  "isMainPEVCEntity": false,
+  "isApprovedForPEPortfolio": false,
+  "editStatus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "Formerly, Telecom Corporation of New Zealand Limited",
+      "mmgid": "prime-1073875",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "corporate",
+      "value": "Corporate",
+      "mmgid": "prime-corporate"
+    }
+  ],
+  "countries": [
+    {
+      "code": "NZL",
+      "value": "New Zealand",
+      "mmgid": "prime-NZL"
+    }
+  ],
+  "states": [],
+  "ownership": {
+    "code": "public",
+    "value": "Public company",
+    "mmgid": "prime-public"
+  },
+  "sectors": [
+    {
+      "code": "telecomcarriers",
+      "value": "Telecommunications: Carriers",
+      "mmgid": "prime-telecomcarriers"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "cablecarriers",
+      "value": "Cable telecom carriers",
+      "mmgid": "prime-cablecarriers"
+    },
+    {
+      "code": "fixedlinecomms",
+      "value": "Fixed line telecoms",
+      "mmgid": "prime-fixedlinecomms"
+    },
+    {
+      "code": "sattelecom",
+      "value": "Mobile/satellite telecoms carriers",
+      "mmgid": "prime-sattelecom"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-NZL",
+      "code": "NZL",
+      "value": "New Zealand"
+    },
+    "state": {
+      "mmgid": "prime-AUK",
+      "code": "AUK",
+      "value": "Auckland"
+    },
+    "postcode": "1010"
+  },
+  "identifiers": {
+    "equity": {
+      "ticker": [
+        {
+          "relatedExchange": {
+            "id": 96
+          },
+          "symbol": "SPK"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "NZTCY"
+        }
+      ],
+      "sedol": [
+        {
+          "relatedExchange": {
+            "id": 96
+          },
+          "symbol": "6881436"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "BPYYKL3"
+        }
+      ],
+      "isin": [
+        {
+          "relatedExchange": {
+            "id": 96
+          },
+          "symbol": "NZTELE0001S4"
+        },
+        {
+          "relatedExchange": {
+            "id": 153
+          },
+          "symbol": "US84652A1025"
+        }
+      ]
+    }
+  },
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": false,
+      "indices": [
+        {
+          "id": "LA",
+          "name": "Large Asia (USD > 2bn)",
+          "mmgid": "prime-LA",
+          "product": "Dealreporter",
+          "edition": "Asia"
+        }
+      ],
+      "intelCounts": {
+        "allEditions": 472
+      }
+    },
+    "mergermarket": {
+      "hasDeals": true,
+      "intelCounts": {
+        "allEditions": 488
+      }
+    },
+    "debtwire": {
+      "universes": [],
+      "dominantSector": {
+        "mmgid": "prime-telecomcarriers",
+        "code": "telecomcarriers",
+        "value": "Telecommunications: Carriers"
+      },
+      "dominantCountry": {
+        "mmgid": "prime-NZL",
+        "code": "NZL",
+        "value": "New Zealand"
+      },
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-17590",
+  "_computed": {
+    "lowercaseName": "spark new zealand limited"
+  }
+}

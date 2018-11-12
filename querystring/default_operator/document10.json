@@ -1,0 +1,99 @@
+{
+  "name": "Government of New South Wales",
+  "description": "Australia-based government of New South Wales",
+  "isMainPEVCEntity": false,
+  "isApprovedForPEPortfolio": false,
+  "editStatus": "final",
+  "isCeased": false,
+  "isDuplicate": false,
+  "aliases": [
+    {
+      "locale": "",
+      "value": "New South Wales Government",
+      "mmgid": "prime-1312228",
+      "type": ""
+    },
+    {
+      "locale": "",
+      "value": "NSW Government",
+      "mmgid": "prime-1312229",
+      "type": ""
+    }
+  ],
+  "types": [
+    {
+      "code": "corporate",
+      "value": "Corporate",
+      "mmgid": "prime-corporate"
+    }
+  ],
+  "countries": [
+    {
+      "code": "AUS",
+      "value": "Australia",
+      "mmgid": "prime-AUS"
+    }
+  ],
+  "states": [],
+  "ownership": {
+    "code": "state",
+    "value": "State owned",
+    "mmgid": "prime-state"
+  },
+  "sectors": [
+    {
+      "code": "government",
+      "value": "Government",
+      "mmgid": "prime-government"
+    }
+  ],
+  "subsectors": [
+    {
+      "code": "government",
+      "value": "Government",
+      "mmgid": "prime-government"
+    }
+  ],
+  "headquarters": {
+    "country": {
+      "mmgid": "prime-AUS",
+      "code": "AUS",
+      "value": "Australia"
+    },
+    "state": {
+      "mmgid": "prime-NSW",
+      "code": "NSW",
+      "value": "New South Wales"
+    },
+    "postcode": "2000"
+  },
+  "identifiers": {},
+  "productAttributes": {
+    "muni": {
+      "municipalsCounties": {},
+      "municipalsSectors": []
+    },
+    "dealreporter": {
+      "hasDeals": false,
+      "indices": [],
+      "intelCounts": {
+        "allEditions": 157
+      }
+    },
+    "mergermarket": {
+      "hasDeals": false,
+      "intelCounts": {
+        "allEditions": 468
+      }
+    },
+    "debtwire": {
+      "universes": [],
+      "editions": [],
+      "watchlists": []
+    }
+  },
+  "mmgid": "prime-153886",
+  "_computed": {
+    "lowercaseName": "government of new south wales"
+  }
+}
